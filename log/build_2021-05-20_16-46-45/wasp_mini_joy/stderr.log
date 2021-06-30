@@ -1,0 +1,14 @@
+[01m[K/home/wasp_mini/ros2_ws/src/wasp_mini_joy/src/joy_pub.cpp:[m[K In constructor ‘[01m[KJoyPublisherNode::JoyPublisherNode()[m[K’:
+[01m[K/home/wasp_mini/ros2_ws/src/wasp_mini_joy/src/joy_pub.cpp:8:162:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+    8 | ::placeholders::_1)[01;31m[K;[m[K
+      |                    [01;31m[K^[m[K
+      |                    [32m[K)[m[K
+[01m[K/home/wasp_mini/ros2_ws/src/wasp_mini_joy/src/joy_pub.cpp:9:93:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+    9 |             cmd_publisher = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10)
+      |                                                                                             [01;31m[K^[m[K
+      |                                                                                             [32m[K;[m[K
+   10 |             [32m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1),std::bind(&JoyPublisherNode::callBack, this));
+      |             [32m[K~~~~~~[m[K                                                                           
+make[2]: *** [CMakeFiles/joy_pub.dir/build.make:63: CMakeFiles/joy_pub.dir/src/joy_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

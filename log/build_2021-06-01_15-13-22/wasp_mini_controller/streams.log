@@ -1,0 +1,27 @@
+[0.431s] Invoking command in '/home/wasp_mini/ros2_ws/src/wasp_mini_controller': PYTHONPATH=/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wasp_mini_controller build --build-base /home/wasp_mini/ros2_ws/build/wasp_mini_controller/build install --prefix /home/wasp_mini/ros2_ws/install/wasp_mini_controller --record /home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log --single-version-externally-managed
+[0.801s] running egg_info
+[0.802s] writing ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/PKG-INFO
+[0.803s] writing dependency_links to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/dependency_links.txt
+[0.803s] writing entry points to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/entry_points.txt
+[0.804s] writing requirements to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/requires.txt
+[0.804s] writing top-level names to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/top_level.txt
+[0.861s] reading manifest file '../../build/wasp_mini_controller/wasp_mini_controller.egg-info/SOURCES.txt'
+[0.863s] writing manifest file '../../build/wasp_mini_controller/wasp_mini_controller.egg-info/SOURCES.txt'
+[0.863s] running build
+[0.863s] running build_py
+[0.864s] copying wasp_mini_controller/main.py -> /home/wasp_mini/ros2_ws/build/wasp_mini_controller/build/lib/wasp_mini_controller
+[0.864s] running install
+[0.866s] running install_lib
+[0.867s] copying /home/wasp_mini/ros2_ws/build/wasp_mini_controller/build/lib/wasp_mini_controller/main.py -> /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller
+[0.868s] byte-compiling /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller/main.py to main.cpython-38.pyc
+[0.873s] running install_data
+[0.874s] running install_egg_info
+[0.876s] removing '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[0.877s] Copying ../../build/wasp_mini_controller/wasp_mini_controller.egg-info to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller-0.0.0-py3.8.egg-info
+[0.878s] running install_scripts
+[0.905s] Installing actuator_position script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller
+[0.906s] Installing main_node script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller
+[0.906s] Installing motor_FL script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller
+[0.906s] Installing motor_FR script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller
+[0.906s] writing list of installed files to '/home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log'
+[0.942s] Invoked command in '/home/wasp_mini/ros2_ws/src/wasp_mini_controller' returned '0': PYTHONPATH=/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wasp_mini_controller build --build-base /home/wasp_mini/ros2_ws/build/wasp_mini_controller/build install --prefix /home/wasp_mini/ros2_ws/install/wasp_mini_controller --record /home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log --single-version-externally-managed

@@ -1,0 +1,12 @@
+[0.369s] Invoking command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/wasp_mini_joy -- -j4 -l4
+[0.475s] [35m[1mScanning dependencies of target joy_pub[0m
+[0.536s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_pub.dir/src/joy_pub.cpp.o[0m
+[2.563s] [01m[K/home/wasp_mini/ros2_ws/src/wasp_mini_joy/src/joy_pub.cpp:[m[K In constructor ‘[01m[KJoyPublisherNode::JoyPublisherNode()[m[K’:
+[2.563s] [01m[K/home/wasp_mini/ros2_ws/src/wasp_mini_joy/src/joy_pub.cpp:8:162:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.564s]     8 | ::placeholders::_1)[01;31m[K;[m[K
+[2.564s]       |                    [01;31m[K^[m[K
+[2.564s]       |                    [32m[K)[m[K
+[4.006s] make[2]: *** [CMakeFiles/joy_pub.dir/build.make:63: CMakeFiles/joy_pub.dir/src/joy_pub.cpp.o] Error 1
+[4.006s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_pub.dir/all] Error 2
+[4.006s] make: *** [Makefile:141: all] Error 2
+[4.009s] Invoked command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/wasp_mini_joy -- -j4 -l4

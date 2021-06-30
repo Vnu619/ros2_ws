@@ -1,0 +1,344 @@
+[0.043s] Invoking command in '/home/wasp_mini/ros2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/nav_2d_msgs
+[0.494s] -- The C compiler identification is GNU 9.3.0
+[0.861s] -- The CXX compiler identification is GNU 9.3.0
+[0.876s] -- Check for working C compiler: /usr/bin/cc
+[0.985s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.025s] -- Detecting C compiler ABI info
+[1.140s] -- Detecting C compiler ABI info - done
+[1.172s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.181s] -- Check for working CXX compiler: /usr/bin/c++
+[1.370s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.373s] -- Detecting CXX compiler ABI info
+[1.574s] -- Detecting CXX compiler ABI info - done
+[1.621s] -- Detecting CXX compile features
+[1.623s] -- Detecting CXX compile features - done
+[1.646s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.743s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.745s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.479s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.819s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.922s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.660s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.805s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[4.480s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.733s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[5.738s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.838s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[5.838s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.839s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.839s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.890s] -- Found PythonExtra: .so  
+[6.128s] -- Configuring done
+[6.314s] -- Generating done
+[6.325s] -- Build files have been written to: /home/wasp_mini/ros2_ws/build/nav_2d_msgs
+[6.339s] Invoked command in '/home/wasp_mini/ros2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/nav_2d_msgs
+[6.341s] Invoking command in '/home/wasp_mini/ros2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/nav_2d_msgs -- -j4 -l4
+[6.456s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.475s] [35m[1mScanning dependencies of target nav_2d_msgs__cpp[0m
+[6.562s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.525s] [  2%] Built target nav_2d_msgs__cpp
+[8.640s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.748s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.900s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.902s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_generator_c[0m
+[8.981s] [  8%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[9.331s] [  9%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[9.636s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[9.993s] [ 12%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[10.388s] [ 14%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[10.633s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_cpp[0m
+[10.828s] [ 15%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[10.922s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[11.089s] [ 18%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[11.419s] [ 18%] Built target nav_2d_msgs__rosidl_generator_c
+[11.495s] [ 19%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[11.575s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_cpp[0m
+[11.700s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/path2_d__type_support.cpp.o[0m
+[11.984s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[12.175s] [ 22%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o[0m
+[12.724s] [ 23%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[13.434s] [ 25%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[14.250s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[14.394s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp.o[0m
+[14.956s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[15.137s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d32__type_support.cpp.o[0m
+[15.974s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp.o[0m
+[16.344s] [ 33%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_cpp.so[0m
+[16.473s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp.o[0m
+[16.658s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[16.732s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.395s] [ 38%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp.o[0m
+[17.808s] [ 39%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp.o[0m
+[17.829s] [ 40%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d_stamped__type_support.cpp.o[0m
+[18.697s] [ 42%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o[0m
+[18.716s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_c[0m
+[18.824s] [ 43%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[19.052s] [ 45%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[19.245s] [ 46%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[19.415s] [ 47%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[19.472s] [ 49%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[19.677s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[19.834s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[19.843s] [ 52%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[19.942s] [ 53%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_c.so[0m
+[20.093s] [ 53%] Built target nav_2d_msgs__rosidl_typesupport_c
+[20.350s] [ 54%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d_stamped__type_support.cpp.o[0m
+[21.456s] [ 56%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d32__type_support.cpp.o[0m
+[22.575s] [ 57%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.838s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[22.875s] [ 59%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.195s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c[0m
+[24.263s] [ 60%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[24.358s] [ 61%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[24.455s] [ 63%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[24.557s] [ 64%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[24.649s] [ 66%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[24.750s] [ 67%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[24.846s] [ 69%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_typesupport_introspection_c.so[0m
+[24.930s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[24.959s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.370s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c[0m
+[26.445s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/path2_d__type_support_c.cpp.o[0m
+[27.409s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d__type_support_c.cpp.o[0m
+[28.201s] [ 74%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d32__type_support_c.cpp.o[0m
+[29.100s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support_c.cpp.o[0m
+[29.842s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support_c.cpp.o[0m
+[30.543s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d32__type_support_c.cpp.o[0m
+[31.351s] [ 80%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[31.570s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[31.587s] [35m[1mScanning dependencies of target nav_2d_msgs[0m
+[31.606s] [ 80%] Built target nav_2d_msgs
+[31.623s] [35m[1mScanning dependencies of target nav_2d_msgs__py[0m
+[31.642s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.973s] [ 81%] Built target nav_2d_msgs__py
+[33.998s] [35m[1mScanning dependencies of target nav_2d_msgs__python[0m
+[34.107s] [ 83%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_path2_d_s.c.o[0m
+[34.346s] [ 84%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_s.c.o[0m
+[34.580s] [ 85%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d32_s.c.o[0m
+[34.817s] [ 87%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_stamped_s.c.o[0m
+[35.057s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d_stamped_s.c.o[0m
+[35.263s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d32_s.c.o[0m
+[35.414s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/libnav_2d_msgs__python.so[0m
+[35.497s] [ 91%] Built target nav_2d_msgs__python
+[35.514s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35.549s] [ 92%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.718s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[35.787s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[35.803s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_c__pyext[0m
+[35.847s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[36.105s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[36.202s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[36.227s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[36.278s] [ 98%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.491s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[36.614s] [100%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[36.634s] Invoked command in '/home/wasp_mini/ros2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/nav_2d_msgs -- -j4 -l4
+[36.833s] Invoking command in '/home/wasp_mini/ros2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/nav_2d_msgs
+[36.849s] -- Install configuration: ""
+[36.849s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[36.849s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[36.850s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[36.850s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.h
+[36.850s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[36.850s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.h
+[36.851s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[36.851s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.h
+[36.851s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[36.851s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[36.852s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[36.852s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[36.852s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[36.852s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[36.853s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[36.853s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[36.854s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.h
+[36.854s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[36.854s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[36.855s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[36.855s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[36.855s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[36.856s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[36.856s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[36.856s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[36.856s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[36.856s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.c
+[36.857s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[36.857s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[36.857s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[36.857s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[36.858s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.h
+[36.858s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.h
+[36.858s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.h
+[36.859s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.h
+[36.860s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[36.860s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[36.860s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[36.860s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[36.861s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[36.861s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[36.861s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.861s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[36.862s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[36.862s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[36.862s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[36.862s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[36.863s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[36.863s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[36.863s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[36.863s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[36.863s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[36.863s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[36.863s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.878s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[36.878s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[36.879s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[36.879s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[36.879s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[36.879s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[36.879s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[36.880s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/dds_fastrtps
+[36.880s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[36.880s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.881s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[36.881s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[36.881s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.882s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[36.882s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[36.882s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[36.883s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[36.883s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[36.883s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[36.883s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[36.887s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[36.887s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[36.887s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[36.888s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[36.888s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[36.888s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[36.889s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[36.889s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[36.889s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[36.890s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[36.890s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[36.890s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[36.890s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.hpp
+[36.891s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.hpp
+[36.891s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.hpp
+[36.891s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[36.891s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[36.891s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[36.892s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[36.892s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[36.893s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[36.893s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[36.893s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[36.894s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[36.894s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[36.894s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[36.895s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[36.895s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[36.895s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[36.895s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[36.896s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[36.896s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[36.896s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[36.896s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[36.897s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[36.897s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.hpp
+[36.897s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[36.897s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[36.897s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[36.898s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[36.898s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[36.898s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[36.898s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[36.899s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[36.899s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[36.899s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[36.899s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[36.900s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[36.900s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[36.900s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[36.900s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[36.900s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[36.901s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[36.901s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.901s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[36.901s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[36.901s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[36.901s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[36.902s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py
+[36.951s] Compiling '/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py'...
+[36.958s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg
+[36.959s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[36.959s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d.py
+[36.960s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[36.960s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d.py
+[36.960s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[36.960s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d_s.c
+[36.961s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[36.964s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[36.964s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32.py
+[36.965s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[36.965s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/__init__.py
+[36.965s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[36.965s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32.py
+[36.966s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[36.966s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[36.966s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[36.966s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[36.967s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[36.967s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[36.967s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__python.so
+[36.967s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__python.so" to ""
+[36.967s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[36.968s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[36.968s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[36.968s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[36.968s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[36.969s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[36.969s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[36.970s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[36.970s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[36.971s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[36.971s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[36.971s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[36.972s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[36.972s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[36.973s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[36.973s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[36.973s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[36.974s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[36.974s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[36.974s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[36.975s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[36.975s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[36.975s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[36.976s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[36.976s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport.cmake
+[36.977s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[36.977s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[36.977s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[36.978s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[36.978s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[36.979s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cppExport.cmake
+[36.979s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[36.979s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[36.980s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[36.980s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[36.981s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[36.981s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.981s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[36.982s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[36.982s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.982s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.983s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.983s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[36.983s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[36.984s] -- Installing: /home/wasp_mini/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[36.992s] Invoked command in '/home/wasp_mini/ros2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/nav_2d_msgs

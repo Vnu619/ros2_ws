@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/wasp_mini_joy -- -j4 -l4
+[0.094s] [35m[1mScanning dependencies of target joy_pub[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_pub.dir/src/joy_pub.cpp.o[0m
+[3.246s] [100%] [32m[1mLinking CXX executable joy_pub[0m
+[3.602s] [100%] Built target joy_pub
+[3.634s] Invoked command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/wasp_mini_joy -- -j4 -l4
+[3.686s] Invoking command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/wasp_mini_joy
+[3.712s] -- Install configuration: ""
+[3.713s] -- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/wasp_mini_joy/joy_pub
+[3.714s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/wasp_mini_joy/joy_pub" to ""
+[3.715s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/package_run_dependencies/wasp_mini_joy
+[3.715s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/parent_prefix_path/wasp_mini_joy
+[3.716s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.sh
+[3.716s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.dsv
+[3.716s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.sh
+[3.716s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.dsv
+[3.717s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.bash
+[3.717s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.sh
+[3.717s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.zsh
+[3.717s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.dsv
+[3.717s] -- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.dsv
+[3.717s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/packages/wasp_mini_joy
+[3.717s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig.cmake
+[3.718s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig-version.cmake
+[3.718s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.xml
+[3.722s] Invoked command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/wasp_mini_joy

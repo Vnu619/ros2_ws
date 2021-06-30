@@ -1,0 +1,8 @@
+[01m[K/home/wasp_mini/ros2_ws/src/wasp_mini_joy/src/joy_pub.cpp:[m[K In constructor ‘[01m[KJoyPublisherNode::JoyPublisherNode()[m[K’:
+[01m[K/home/wasp_mini/ros2_ws/src/wasp_mini_joy/src/joy_pub.cpp:7:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::bind[m[K’ is not a class member
+    7 | timer(std::chrono::seconds(1).[01;31m[Kstd[m[K::bind(&JoyPublisherNode::callBack, this));
+      |                               [01;31m[K^~~[m[K
+
+make[2]: *** [CMakeFiles/joy_pub.dir/build.make:63: CMakeFiles/joy_pub.dir/src/joy_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

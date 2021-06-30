@@ -1,0 +1,64 @@
+[0.027s] Invoking command in '/home/wasp_mini/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wasp_mini/ros2_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/nav2_util
+[0.119s] -- The C compiler identification is GNU 9.3.0
+[0.206s] -- The CXX compiler identification is GNU 9.3.0
+[0.214s] -- Check for working C compiler: /usr/bin/cc
+[0.326s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.328s] -- Detecting C compiler ABI info
+[0.440s] -- Detecting C compiler ABI info - done
+[0.461s] -- Detecting C compile features
+[0.462s] -- Detecting C compile features - done
+[0.466s] -- Check for working CXX compiler: /usr/bin/c++
+[0.779s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.780s] -- Detecting CXX compiler ABI info
+[0.910s] -- Detecting CXX compiler ABI info - done
+[0.930s] -- Detecting CXX compile features
+[0.931s] -- Detecting CXX compile features - done
+[0.935s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.976s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.977s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.337s] -- Found nav2_common: 1.0.0 (/home/wasp_mini/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.337s] -- Found nav2_msgs: 1.0.0 (/home/wasp_mini/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.402s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.529s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.578s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.433s] -- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.539s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.543s] -- Looking for pthread.h
+[2.652s] -- Looking for pthread.h - found
+[2.652s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.759s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.760s] -- Looking for pthread_create in pthreads
+[2.844s] -- Looking for pthread_create in pthreads - not found
+[2.845s] -- Looking for pthread_create in pthread
+[2.947s] -- Looking for pthread_create in pthread - found
+[2.949s] -- Found Threads: TRUE  
+[3.704s] -- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.721s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.727s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.774s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[3.797s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[3.922s] -- Found rclcpp_lifecycle: 2.3.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[3.970s] CMake Error at CMakeLists.txt:18 (find_package):
+[3.970s]   By not providing "Findbondcpp.cmake" in CMAKE_MODULE_PATH this project has
+[3.970s]   asked CMake to find a package configuration file provided by "bondcpp", but
+[3.970s]   CMake did not find one.
+[3.971s] 
+[3.971s]   Could not find a package configuration file provided by "bondcpp" with any
+[3.971s]   of the following names:
+[3.971s] 
+[3.971s]     bondcppConfig.cmake
+[3.971s]     bondcpp-config.cmake
+[3.971s] 
+[3.972s]   Add the installation prefix of "bondcpp" to CMAKE_PREFIX_PATH or set
+[3.972s]   "bondcpp_DIR" to a directory containing one of the above files.  If
+[3.972s]   "bondcpp" provides a separate development package or SDK, be sure it has
+[3.972s]   been installed.
+[3.972s] 
+[3.972s] 
+[3.974s] -- Configuring incomplete, errors occurred!
+[3.974s] See also "/home/wasp_mini/ros2_ws/build/nav2_util/CMakeFiles/CMakeOutput.log".
+[3.974s] See also "/home/wasp_mini/ros2_ws/build/nav2_util/CMakeFiles/CMakeError.log".
+[3.985s] Invoked command in '/home/wasp_mini/ros2_ws/build/nav2_util' returned '1': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wasp_mini/ros2_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/nav2_util

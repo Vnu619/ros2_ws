@@ -1,0 +1,26 @@
+[0.646s] Invoking command in '/home/wasp_mini/ros2_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/wasp_mini/ros2_ws/build/nav2_simple_commander/build install --prefix /home/wasp_mini/ros2_ws/install/nav2_simple_commander --record /home/wasp_mini/ros2_ws/build/nav2_simple_commander/install.log --single-version-externally-managed
+[1.223s] running egg_info
+[1.225s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.227s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.228s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.229s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.229s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[1.310s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.312s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.312s] running build
+[1.312s] running build_py
+[1.313s] running install
+[1.315s] running install_lib
+[1.318s] running install_data
+[1.319s] running install_egg_info
+[1.323s] removing '/home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander-1.0.0-py3.8.egg-info' (and everything under it)
+[1.324s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander-1.0.0-py3.8.egg-info
+[1.325s] running install_scripts
+[1.362s] Installing demo_inspection script to /home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.362s] Installing demo_picking script to /home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.362s] Installing demo_security script to /home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.363s] Installing example_nav_through_poses script to /home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.363s] Installing example_nav_to_pose script to /home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.363s] Installing example_waypoint_follower script to /home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.364s] writing list of installed files to '/home/wasp_mini/ros2_ws/build/nav2_simple_commander/install.log'
+[1.401s] Invoked command in '/home/wasp_mini/ros2_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_simple_commander/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/wasp_mini/ros2_ws/build/nav2_simple_commander/build install --prefix /home/wasp_mini/ros2_ws/install/nav2_simple_commander --record /home/wasp_mini/ros2_ws/build/nav2_simple_commander/install.log --single-version-externally-managed

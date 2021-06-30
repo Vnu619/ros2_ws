@@ -1,0 +1,47 @@
+[0.028s] Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini
+[0.549s] -- The C compiler identification is GNU 9.3.0
+[0.873s] -- The CXX compiler identification is GNU 9.3.0
+[0.892s] -- Check for working C compiler: /usr/bin/cc
+[1.020s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.055s] -- Detecting C compiler ABI info
+[1.164s] -- Detecting C compiler ABI info - done
+[1.205s] -- Detecting C compile features
+[1.206s] -- Detecting C compile features - done
+[1.211s] -- Check for working CXX compiler: /usr/bin/c++
+[1.336s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.338s] -- Detecting CXX compiler ABI info
+[1.462s] -- Detecting CXX compiler ABI info - done
+[1.482s] -- Detecting CXX compile features
+[1.483s] -- Detecting CXX compile features - done
+[1.506s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.553s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.553s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.945s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.045s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.059s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.271s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.328s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.626s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.631s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.635s] -- Looking for pthread.h
+[2.762s] -- Looking for pthread.h - found
+[2.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.877s] -- Looking for pthread_create in pthreads
+[2.969s] -- Looking for pthread_create in pthreads - not found
+[2.969s] -- Looking for pthread_create in pthread
+[3.076s] -- Looking for pthread_create in pthread - found
+[3.078s] -- Found Threads: TRUE  
+[3.399s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[3.400s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.400s]   ament_target_dependencies() the passed package name 'sensor_msgs' was not
+[3.400s]   found before
+[3.400s] Call Stack (most recent call first):
+[3.401s]   CMakeLists.txt:27 (ament_target_dependencies)
+[3.401s] 
+[3.401s] 
+[3.402s] -- Configuring incomplete, errors occurred!
+[3.403s] See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeOutput.log".
+[3.403s] See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeError.log".
+[3.414s] Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini

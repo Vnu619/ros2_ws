@@ -1,0 +1,52 @@
+[0.021s] Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini
+[0.050s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.086s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.401s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.685s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.781s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.071s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[1.072s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.409s] -- Configuring done
+[1.423s] -- Generating done
+[1.426s] -- Build files have been written to: /home/wasp_mini/ros2_ws/build/main_waspmini
+[1.436s] Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini
+[1.441s] Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/main_waspmini -- -j4 -l4
+[1.505s] [35m[1mScanning dependencies of target joy_pub[0m
+[1.680s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_pub.dir/src/joy_pub.cpp.o[0m
+[10.775s] [100%] [32m[1mLinking CXX executable joy_pub[0m
+[11.401s] [100%] Built target joy_pub
+[11.421s] Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/main_waspmini -- -j4 -l4
+[11.475s] Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/main_waspmini
+[11.488s] -- Install configuration: ""
+[11.489s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/pythonpath.sh
+[11.489s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/pythonpath.dsv
+[11.489s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini
+[11.490s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini/__init__.py
+[11.543s] Listing '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini'...
+[11.544s] Compiling '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini/__init__.py'...
+[11.550s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/joy_pub
+[11.553s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/joy_pub" to ""
+[11.553s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/motor_FR.py
+[11.554s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/motor_FL.py
+[11.554s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/actuator_fb.py
+[11.554s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/main.py
+[11.555s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/package_run_dependencies/main_waspmini
+[11.555s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/parent_prefix_path/main_waspmini
+[11.556s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/ament_prefix_path.sh
+[11.556s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/ament_prefix_path.dsv
+[11.556s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/path.sh
+[11.556s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/path.dsv
+[11.557s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.bash
+[11.557s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.sh
+[11.557s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.zsh
+[11.557s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.dsv
+[11.558s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.dsv
+[11.558s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/packages/main_waspmini
+[11.558s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.558s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/cmake/main_waspminiConfig.cmake
+[11.559s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/cmake/main_waspminiConfig-version.cmake
+[11.559s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.xml
+[11.563s] Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/main_waspmini

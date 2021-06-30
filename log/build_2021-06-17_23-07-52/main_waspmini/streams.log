@@ -1,0 +1,33 @@
+[0.068s] Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/main_waspmini -- -j4 -l4
+[0.766s] [100%] Built target joy_pub
+[0.774s] Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '0': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/main_waspmini -- -j4 -l4
+[0.891s] Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/main_waspmini
+[0.927s] -- Install configuration: ""
+[0.927s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/pythonpath.sh
+[0.927s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/pythonpath.dsv
+[0.928s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini
+[0.929s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini/__init__.py
+[1.032s] Listing '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini'...
+[1.046s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/joy_pub
+[1.049s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini//launch
+[1.052s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini//launch/controller.launch.py
+[1.053s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/motor_FR.py
+[1.053s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/motor_FL.py
+[1.053s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/actuator_fb.py
+[1.053s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/main.py
+[1.054s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/package_run_dependencies/main_waspmini
+[1.054s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/parent_prefix_path/main_waspmini
+[1.054s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/ament_prefix_path.sh
+[1.054s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/ament_prefix_path.dsv
+[1.055s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/path.sh
+[1.055s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/path.dsv
+[1.055s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.bash
+[1.055s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.sh
+[1.056s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.zsh
+[1.056s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.dsv
+[1.056s] -- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.dsv
+[1.056s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/packages/main_waspmini
+[1.057s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/cmake/main_waspminiConfig.cmake
+[1.057s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/cmake/main_waspminiConfig-version.cmake
+[1.057s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.xml
+[1.063s] Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '0': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/main_waspmini

@@ -1,0 +1,4 @@
+Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav_msgs -- -j4 -l4
+Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav_msgs -- -j4 -l4
+Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav_msgs
+Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav_msgs

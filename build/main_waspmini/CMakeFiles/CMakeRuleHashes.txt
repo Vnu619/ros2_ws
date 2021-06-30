@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+5f9bbde1dde8cf80d8b2aeb97ef7413d CMakeFiles/main_waspmini_uninstall

@@ -1,0 +1,33 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wasp_mini/ros2_ws/build/wasp_mini_joy
+[35m[1mScanning dependencies of target joy_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joy_pub.dir/src/joy_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable joy_pub[0m
+[100%] Built target joy_pub
+-- Install configuration: ""
+-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/wasp_mini_joy/joy_pub
+-- Set runtime path of "/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/wasp_mini_joy/joy_pub" to ""
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/package_run_dependencies/wasp_mini_joy
+-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/parent_prefix_path/wasp_mini_joy
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.sh
+-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.sh
+-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.dsv
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.bash
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.sh
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.zsh
+-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.dsv
+-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.dsv
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/packages/wasp_mini_joy
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig.cmake
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig-version.cmake
+-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.xml

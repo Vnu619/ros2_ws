@@ -1,0 +1,16 @@
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/wasp_mini_joy/joy_pub
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/package_run_dependencies/wasp_mini_joy
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/parent_prefix_path/wasp_mini_joy
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.sh
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.dsv
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.sh
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.dsv
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.bash
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.sh
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.zsh
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.dsv
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.dsv
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/packages/wasp_mini_joy
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig.cmake
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig-version.cmake
+/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.xml

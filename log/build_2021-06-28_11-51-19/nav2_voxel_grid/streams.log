@@ -1,0 +1,100 @@
+[0.030s] Invoking command in '/home/wasp_mini/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wasp_mini/ros2_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/nav2_voxel_grid
+[0.173s] -- The C compiler identification is GNU 9.3.0
+[0.319s] -- The CXX compiler identification is GNU 9.3.0
+[0.330s] -- Check for working C compiler: /usr/bin/cc
+[0.508s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.510s] -- Detecting C compiler ABI info
+[0.786s] -- Detecting C compiler ABI info - done
+[0.822s] -- Detecting C compile features
+[0.822s] -- Detecting C compile features - done
+[0.828s] -- Check for working CXX compiler: /usr/bin/c++
+[1.009s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.012s] -- Detecting CXX compiler ABI info
+[1.372s] -- Detecting CXX compiler ABI info - done
+[1.436s] -- Detecting CXX compile features
+[1.438s] -- Detecting CXX compile features - done
+[1.444s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.524s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.525s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.206s] -- Found nav2_common: 1.0.0 (/home/wasp_mini/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[2.212s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.373s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.583s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.660s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.082s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.087s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.092s] -- Looking for pthread.h
+[3.289s] -- Looking for pthread.h - found
+[3.289s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.501s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.501s] -- Looking for pthread_create in pthreads
+[3.691s] -- Looking for pthread_create in pthreads - not found
+[3.692s] -- Looking for pthread_create in pthread
+[3.918s] -- Looking for pthread_create in pthread - found
+[3.918s] -- Found Threads: TRUE  
+[4.445s] -- Setting build type to Release as none was specified.
+[4.481s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.728s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.738s] -- Check if compiler accepts -pthread
+[5.171s] -- Check if compiler accepts -pthread - yes
+[5.205s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.206s] -- Configured cppcheck include dirs: /home/wasp_mini/ros2_ws/src/navigation2/nav2_voxel_grid/include
+[5.206s] -- Configured cppcheck exclude dirs and/or files: 
+[5.210s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.210s] -- Configured cpplint exclude dirs and/or files: 
+[5.219s] -- Added test 'lint_cmake' to check CMake code style
+[5.221s] -- Added test 'uncrustify' to check C / C++ code style
+[5.221s] -- Configured uncrustify additional arguments: 
+[5.222s] -- Added test 'xmllint' to check XML markup files
+[5.238s] -- Configuring done
+[5.279s] -- Generating done
+[5.286s] -- Build files have been written to: /home/wasp_mini/ros2_ws/build/nav2_voxel_grid
+[5.321s] Invoked command in '/home/wasp_mini/ros2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wasp_mini/ros2_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/nav2_voxel_grid
+[5.323s] Invoking command in '/home/wasp_mini/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/nav2_voxel_grid -- -j4 -l4
+[5.508s] [35m[1mScanning dependencies of target voxel_grid[0m
+[5.532s] [35m[1mScanning dependencies of target gtest[0m
+[5.535s] [35m[1mScanning dependencies of target gtest_main[0m
+[5.656s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.673s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.840s] [ 37%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[13.535s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.864s] [ 50%] Built target gtest_main
+[16.482s] [ 62%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[17.168s] [ 62%] Built target voxel_grid
+[32.126s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[32.208s] [ 75%] Built target gtest
+[32.225s] [35m[1mScanning dependencies of target voxel_grid_tests[0m
+[32.299s] [ 87%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[39.441s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[39.941s] [100%] Built target voxel_grid_tests
+[39.996s] Invoked command in '/home/wasp_mini/ros2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/nav2_voxel_grid -- -j4 -l4
+[40.098s] Invoking command in '/home/wasp_mini/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/nav2_voxel_grid
+[40.153s] -- Install configuration: "Release"
+[40.154s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[40.155s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[40.155s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/include
+[40.155s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[40.156s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[40.156s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[40.164s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[40.164s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[40.165s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[40.165s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[40.166s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[40.166s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[40.166s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[40.167s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[40.167s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[40.167s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[40.168s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[40.168s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[40.169s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[40.169s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.169s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.170s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[40.170s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[40.170s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[40.171s] -- Installing: /home/wasp_mini/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[40.180s] Invoked command in '/home/wasp_mini/ros2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/nav2_voxel_grid

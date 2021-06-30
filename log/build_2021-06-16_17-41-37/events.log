@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001576] (-) JobUnselected: {'identifier': 'wasp_mini_controller'}
+[0.002430] (-) JobUnselected: {'identifier': 'wasp_mini_joy'}
+[0.002489] (main_waspmini) JobQueued: {'identifier': 'main_waspmini', 'dependencies': OrderedDict()}
+[0.003020] (main_waspmini) JobStarted: {'identifier': 'main_waspmini'}
+[0.021730] (main_waspmini) JobProgress: {'identifier': 'main_waspmini', 'progress': 'cmake'}
+[0.023028] (main_waspmini) JobProgress: {'identifier': 'main_waspmini', 'progress': 'build'}
+[0.024209] (main_waspmini) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wasp_mini/ros2_ws/build/main_waspmini', '--', '-j4', '-l4'], 'cwd': '/home/wasp_mini/ros2_ws/build/main_waspmini', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src/main_waspmini/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '769'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2166'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:37901'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1079,unix/sutd:/tmp/.ICE-unix/1079'), ('INVOCATION_ID', '9ae25724d7ad4e028e89a7ce00c4c8b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/main_waspmini:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:400d80f2-c997-410e-81e3-10b6c5d92750'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/main_waspmini'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/main_waspmini:/home/wasp_mini/ros2_ws/install/wasp_mini_joy')]), 'shell': False}
+[0.094625] (main_waspmini) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099488] (-) TimerEvent: {}
+[0.136975] (main_waspmini) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199625] (-) TimerEvent: {}
+[0.299984] (-) TimerEvent: {}
+[0.400333] (-) TimerEvent: {}
+[0.472524] (main_waspmini) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.500479] (-) TimerEvent: {}
+[0.533755] (main_waspmini) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.539276] (main_waspmini) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600622] (-) TimerEvent: {}
+[0.701129] (-) TimerEvent: {}
+[0.763524] (main_waspmini) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801295] (-) TimerEvent: {}
+[0.850969] (main_waspmini) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.853774] (main_waspmini) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901421] (-) TimerEvent: {}
+[1.001821] (-) TimerEvent: {}
+[1.102231] (-) TimerEvent: {}
+[1.128066] (main_waspmini) StdoutLine: {'line': b'-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.129003] (main_waspmini) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.202364] (-) TimerEvent: {}
+[1.302754] (-) TimerEvent: {}
+[1.403129] (-) TimerEvent: {}
+[1.460694] (main_waspmini) StderrLine: {'line': b"Error parsing '/home/wasp_mini/ros2_ws/src/main_waspmini/package.xml':\n"}
+[1.503379] (-) TimerEvent: {}
+[1.604076] (-) TimerEvent: {}
+[1.704436] (-) TimerEvent: {}
+[1.804740] (-) TimerEvent: {}
+[1.861053] (main_waspmini) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.861384] (main_waspmini) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[1.861593] (main_waspmini) StderrLine: {'line': b'    main()\n'}
+[1.861777] (main_waspmini) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[1.861950] (main_waspmini) StderrLine: {'line': b'    raise e\n'}
+[1.862172] (main_waspmini) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[1.862334] (main_waspmini) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.862504] (main_waspmini) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 773, in parse_package_string\n'}
+[1.862696] (main_waspmini) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[1.862868] (main_waspmini) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 316, in validate\n'}
+[1.863041] (main_waspmini) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[1.863214] (main_waspmini) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/wasp_mini/ros2_ws/src/main_waspmini/package.xml':\n"}
+[1.863385] (main_waspmini) StderrLine: {'line': b'The package "main_waspmini" must not "exec_depend" on a package with the same name as this package\n'}
+[1.896120] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[1.896351] (main_waspmini) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.896471] (main_waspmini) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.896580] (main_waspmini) StderrLine: {'line': b'  /home/wasp_mini/ros2_ws/src/main_waspmini/package.xml\n'}
+[1.896683] (main_waspmini) StderrLine: {'line': b'  /home/wasp_mini/ros2_ws/build/main_waspmini/ament_cmake_core/package.cmake)\n'}
+[1.896786] (main_waspmini) StderrLine: {'line': b'  returned error code 1\n'}
+[1.896885] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.896983] (main_waspmini) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.897083] (main_waspmini) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[1.897180] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_package)\n'}
+[1.897277] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.897376] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.898922] (main_waspmini) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.899093] (main_waspmini) StdoutLine: {'line': b'See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeOutput.log".\n'}
+[1.899210] (main_waspmini) StdoutLine: {'line': b'See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeError.log".\n'}
+[1.904896] (-) TimerEvent: {}
+[1.908291] (main_waspmini) StderrLine: {'line': b'make: *** [Makefile:266: cmake_check_build_system] Error 1\n'}
+[1.911543] (main_waspmini) CommandEnded: {'returncode': 2}
+[1.912313] (main_waspmini) JobEnded: {'identifier': 'main_waspmini', 'rc': 2}
+[1.922582] (-) EventReactorShutdown: {}

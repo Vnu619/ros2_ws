@@ -1,0 +1,57 @@
+[0.063s] Invoking command in '/home/wasp_mini/ros2_ws/build/sick_scan2': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/sick_scan2 -- -j4 -l4
+[0.788s] [ 90%] Built target sick_scan2_lib
+[0.788s] [100%] Built target sick_generic_caller
+[0.790s] Invoked command in '/home/wasp_mini/ros2_ws/build/sick_scan2' returned '0': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/sick_scan2 -- -j4 -l4
+[0.951s] Invoking command in '/home/wasp_mini/ros2_ws/build/sick_scan2': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/sick_scan2
+[0.978s] -- Install configuration: ""
+[0.980s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/lib/sick_scan2/sick_generic_caller
+[0.981s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/lib/libsick_scan2_lib.a
+[0.982s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch
+[0.982s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz
+[0.983s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/tim_5xx.rviz
+[0.983s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/sick_cola.rviz
+[0.984s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/sick_ldmrs.rviz
+[0.984s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/radar.rviz
+[0.985s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/hector.rviz
+[0.985s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/combi.rviz
+[0.986s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lrs_4xxx.launch.py
+[0.986s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lms_1xxx.launch.py
+[0.987s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_ldmrs.launch.py
+[0.987s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lms_5xx.launch_old.py
+[0.988s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lms_5xx.launch.py
+[0.988s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_5xx.launch.pyOLD
+[0.989s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/single_rrbot.urdf
+[0.989s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_5xx.launch.py
+[0.990s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_240.launch.py
+[0.990s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_7xxS.launch.py
+[0.991s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_7xx.launch.py
+[0.992s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lms_1xx.launch.py
+[0.992s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_mrs_1xxx.launch.py
+[0.993s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config
+[0.993s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_mrs_1xxx.yaml
+[0.994s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_lrs_4xxx.yaml
+[0.994s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_tim_240.yaml
+[0.995s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_lms_1xxx.yaml
+[0.995s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_tim_7xx.yaml
+[0.996s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_ldmrs_flexres.yaml
+[0.996s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_tim_5xx.yaml
+[0.997s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_lms_5xx.yaml
+[0.997s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_tim_7xxS.yaml
+[0.998s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_ldmrs.yaml
+[0.998s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_lms_1xx.yaml
+[0.999s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/ament_index/resource_index/package_run_dependencies/sick_scan2
+[1.000s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/ament_index/resource_index/parent_prefix_path/sick_scan2
+[1.001s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/environment/ament_prefix_path.sh
+[1.001s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/environment/ament_prefix_path.dsv
+[1.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/environment/path.sh
+[1.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/environment/path.dsv
+[1.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/local_setup.bash
+[1.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/local_setup.sh
+[1.023s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/local_setup.zsh
+[1.023s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/local_setup.dsv
+[1.023s] -- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.dsv
+[1.023s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/ament_index/resource_index/packages/sick_scan2
+[1.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/cmake/sick_scan2Config.cmake
+[1.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/cmake/sick_scan2Config-version.cmake
+[1.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.xml
+[1.061s] Invoked command in '/home/wasp_mini/ros2_ws/build/sick_scan2' returned '0': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/sick_scan2

@@ -1,0 +1,2 @@
+Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini
+Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '1': /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini

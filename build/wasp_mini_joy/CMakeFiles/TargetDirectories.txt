@@ -1,0 +1,10 @@
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/install/strip.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/install.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/list_install_components.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/rebuild_cache.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/edit_cache.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/test.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/install/local.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/joy_pub.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/wasp_mini_joy_uninstall.dir
+/home/wasp_mini/ros2_ws/build/wasp_mini_joy/CMakeFiles/uninstall.dir

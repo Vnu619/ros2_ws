@@ -1,0 +1,563 @@
+[0.639s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.639s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7bba6ef520>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7bba6ef520>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7bba85c8b0>)
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.659s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wasp_mini/ros2_ws'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extension 'ignore_ament_install'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extensions ['colcon_pkg']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extension 'colcon_pkg'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extensions ['colcon_meta']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extension 'colcon_meta'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extensions ['ros']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_waspmini) by extension 'ros'
+[0.694s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_waspmini' with type 'ros.ament_cmake' and name 'main_waspmini'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'colcon_meta'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extensions ['ros']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'ros'
+[0.702s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_localization' with type 'ros.ament_cmake' and name 'robot_localization'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extension 'ignore'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extension 'ignore_ament_install'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extensions ['colcon_pkg']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extension 'colcon_pkg'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extensions ['colcon_meta']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extension 'colcon_meta'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extensions ['ros']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_scan2) by extension 'ros'
+[0.717s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sick_scan2' with type 'ros.ament_cmake' and name 'sick_scan2'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'colcon_meta'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extensions ['ros']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'ros'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extensions ['cmake', 'python']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'cmake'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'python'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extensions ['python_setup_py']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav) by extension 'python_setup_py'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extension 'ignore_ament_install'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extensions ['colcon_pkg']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extension 'colcon_pkg'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extension 'colcon_meta'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extensions ['ros']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav) by extension 'ros'
+[0.725s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vectornav/vectornav' with type 'ros.ament_cmake' and name 'vectornav'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/vectornav/vectornav_msgs) by extension 'ros'
+[0.729s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vectornav/vectornav_msgs' with type 'ros.ament_cmake' and name 'vectornav_msgs'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extension 'colcon_pkg'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extensions ['colcon_meta']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extension 'colcon_meta'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extensions ['ros']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_controller) by extension 'ros'
+[0.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wasp_mini_controller' with type 'ros.ament_python' and name 'wasp_mini_controller'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extension 'ignore_ament_install'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extensions ['colcon_pkg']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/wasp_mini_joy) by extension 'ros'
+[0.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wasp_mini_joy' with type 'ros.ament_cmake' and name 'wasp_mini_joy'
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'cmake_target' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'cmake_clean_cache' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'cmake_clean_first' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'cmake_force_configure' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'ament_cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'catkin_cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'main_waspmini' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.788s] DEBUG:colcon.colcon_core.verb:Building package 'main_waspmini' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wasp_mini/ros2_ws/build/main_waspmini', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wasp_mini/ros2_ws/install/main_waspmini', 'merge_install': False, 'path': '/home/wasp_mini/ros2_ws/src/main_waspmini', 'symlink_install': False, 'test_result_base': None}
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_target' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.794s] DEBUG:colcon.colcon_core.verb:Building package 'robot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wasp_mini/ros2_ws/build/robot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wasp_mini/ros2_ws/install/robot_localization', 'merge_install': False, 'path': '/home/wasp_mini/ros2_ws/src/robot_localization', 'symlink_install': False, 'test_result_base': None}
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'cmake_args' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'cmake_target' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'cmake_clean_first' from command line to 'False'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'cmake_force_configure' from command line to 'False'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'ament_cmake_args' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sick_scan2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.799s] DEBUG:colcon.colcon_core.verb:Building package 'sick_scan2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wasp_mini/ros2_ws/build/sick_scan2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wasp_mini/ros2_ws/install/sick_scan2', 'merge_install': False, 'path': '/home/wasp_mini/ros2_ws/src/sick_scan2', 'symlink_install': False, 'test_result_base': None}
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_target' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.805s] DEBUG:colcon.colcon_core.verb:Building package 'vectornav_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wasp_mini/ros2_ws/build/vectornav_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wasp_mini/ros2_ws/install/vectornav_msgs', 'merge_install': False, 'path': '/home/wasp_mini/ros2_ws/src/vectornav/vectornav_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'cmake_target' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.811s] DEBUG:colcon.colcon_core.verb:Building package 'wasp_mini_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wasp_mini/ros2_ws/build/wasp_mini_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wasp_mini/ros2_ws/install/wasp_mini_controller', 'merge_install': False, 'path': '/home/wasp_mini/ros2_ws/src/wasp_mini_controller', 'symlink_install': False, 'test_result_base': None}
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'cmake_target' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'wasp_mini_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.816s] DEBUG:colcon.colcon_core.verb:Building package 'wasp_mini_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wasp_mini/ros2_ws/build/wasp_mini_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wasp_mini/ros2_ws/install/wasp_mini_joy', 'merge_install': False, 'path': '/home/wasp_mini/ros2_ws/src/wasp_mini_joy', 'symlink_install': False, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'vectornav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wasp_mini/ros2_ws/build/vectornav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wasp_mini/ros2_ws/install/vectornav', 'merge_install': False, 'path': '/home/wasp_mini/ros2_ws/src/vectornav/vectornav', 'symlink_install': False, 'test_result_base': None}
+[0.823s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.827s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.828s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wasp_mini/ros2_ws/src/vectornav/vectornav_msgs' with build type 'ament_cmake'
+[0.828s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wasp_mini/ros2_ws/src/vectornav/vectornav_msgs'
+[0.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.859s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.866s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wasp_mini/ros2_ws/src/main_waspmini' with build type 'ament_cmake'
+[0.867s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wasp_mini/ros2_ws/src/main_waspmini'
+[0.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.877s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.883s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wasp_mini/ros2_ws/src/robot_localization' with build type 'ament_cmake'
+[0.884s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wasp_mini/ros2_ws/src/robot_localization'
+[0.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.895s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.900s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wasp_mini/ros2_ws/src/sick_scan2' with build type 'ament_cmake'
+[0.900s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wasp_mini/ros2_ws/src/sick_scan2'
+[0.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.910s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav_msgs -- -j4 -l4
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/main_waspmini -- -j4 -l4
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/robot_localization -- -j4 -l4
+[0.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/sick_scan2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/sick_scan2 -- -j4 -l4
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/main_waspmini -- -j4 -l4
+[1.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/main_waspmini
+[1.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/sick_scan2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/sick_scan2 -- -j4 -l4
+[1.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_waspmini)
+[1.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/main_waspmini
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini' for CMake module files
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini' for CMake config files
+[1.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_waspmini', 'cmake_prefix_path')
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/cmake_prefix_path.ps1'
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/cmake_prefix_path.dsv'
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/cmake_prefix_path.sh'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini/lib'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini/bin'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/pkgconfig/main_waspmini.pc'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages'
+[1.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_waspmini', 'pythonpath')
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/pythonpath.ps1'
+[1.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/pythonpath.dsv'
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/pythonpath.sh'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.ps1'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.sh'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.bash'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.zsh'
+[1.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/main_waspmini/share/colcon-core/packages/main_waspmini)
+[1.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/sick_scan2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/sick_scan2
+[1.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sick_scan2)
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2' for CMake module files
+[1.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/sick_scan2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/sick_scan2
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2' for CMake config files
+[1.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('sick_scan2', 'cmake_prefix_path')
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/hook/cmake_prefix_path.ps1'
+[1.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/hook/cmake_prefix_path.dsv'
+[1.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/hook/cmake_prefix_path.sh'
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2/lib'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2/bin'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2/lib/pkgconfig/sick_scan2.pc'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2/lib/python3.8/site-packages'
+[1.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.ps1'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.dsv'
+[1.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.sh'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.bash'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.zsh'
+[1.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/sick_scan2/share/colcon-core/packages/sick_scan2)
+[1.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_waspmini)
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini' for CMake module files
+[1.915s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini' for CMake config files
+[1.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_waspmini', 'cmake_prefix_path')
+[1.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/cmake_prefix_path.ps1'
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/cmake_prefix_path.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/cmake_prefix_path.sh'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini/lib'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini/bin'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/pkgconfig/main_waspmini.pc'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages'
+[1.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_waspmini', 'pythonpath')
+[1.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/pythonpath.ps1'
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/pythonpath.dsv'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/hook/pythonpath.sh'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.ps1'
+[1.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.dsv'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.sh'
+[1.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.bash'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.zsh'
+[1.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/main_waspmini/share/colcon-core/packages/main_waspmini)
+[1.951s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wasp_mini/ros2_ws/src/wasp_mini_controller' with build type 'ament_python'
+[1.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('wasp_mini_controller', 'ament_prefix_path')
+[1.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/hook/ament_prefix_path.ps1'
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/hook/ament_prefix_path.dsv'
+[1.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/hook/ament_prefix_path.sh'
+[1.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.977s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.703s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wasp_mini/ros2_ws/src/wasp_mini_controller'
+[2.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.708s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/robot_localization -- -j4 -l4
+[2.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav_msgs -- -j4 -l4
+[2.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sick_scan2)
+[2.731s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2' for CMake module files
+[2.733s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2' for CMake config files
+[2.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('sick_scan2', 'cmake_prefix_path')
+[2.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/hook/cmake_prefix_path.ps1'
+[2.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/hook/cmake_prefix_path.dsv'
+[2.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/hook/cmake_prefix_path.sh'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2/lib'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2/bin'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2/lib/pkgconfig/sick_scan2.pc'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/sick_scan2/lib/python3.8/site-packages'
+[2.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.ps1'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.dsv'
+[2.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.sh'
+[2.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.bash'
+[2.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.zsh'
+[2.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/sick_scan2/share/colcon-core/packages/sick_scan2)
+[2.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/src/wasp_mini_controller': PYTHONPATH=/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wasp_mini_controller build --build-base /home/wasp_mini/ros2_ws/build/wasp_mini_controller/build install --prefix /home/wasp_mini/ros2_ws/install/wasp_mini_controller --record /home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log --single-version-externally-managed
+[2.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wasp_mini/ros2_ws/src/wasp_mini_joy' with build type 'ament_cmake'
+[2.759s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wasp_mini/ros2_ws/src/wasp_mini_joy'
+[2.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.771s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/wasp_mini_joy -- -j4 -l4
+[3.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/wasp_mini_joy -- -j4 -l4
+[3.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/wasp_mini_joy
+[3.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wasp_mini_joy)
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy' for CMake module files
+[3.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/wasp_mini_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/wasp_mini_joy
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy' for CMake config files
+[3.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('wasp_mini_joy', 'cmake_prefix_path')
+[3.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/hook/cmake_prefix_path.ps1'
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/hook/cmake_prefix_path.dsv'
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/hook/cmake_prefix_path.sh'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/bin'
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/pkgconfig/wasp_mini_joy.pc'
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/python3.8/site-packages'
+[3.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.ps1'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.dsv'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.sh'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.bash'
+[3.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.zsh'
+[3.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/colcon-core/packages/wasp_mini_joy)
+[3.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wasp_mini_joy)
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy' for CMake module files
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy' for CMake config files
+[3.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('wasp_mini_joy', 'cmake_prefix_path')
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/hook/cmake_prefix_path.ps1'
+[3.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/hook/cmake_prefix_path.dsv'
+[3.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/hook/cmake_prefix_path.sh'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib'
+[3.225s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/bin'
+[3.225s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/pkgconfig/wasp_mini_joy.pc'
+[3.225s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/python3.8/site-packages'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.ps1'
+[3.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.dsv'
+[3.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.sh'
+[3.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.bash'
+[3.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.zsh'
+[3.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/colcon-core/packages/wasp_mini_joy)
+[3.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/robot_localization
+[3.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav_msgs
+[3.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_localization)
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization' for CMake module files
+[3.442s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization' for CMake config files
+[3.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/robot_localization
+[3.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_localization', 'cmake_prefix_path')
+[3.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/cmake_prefix_path.ps1'
+[3.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/cmake_prefix_path.dsv'
+[3.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/cmake_prefix_path.sh'
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization/lib'
+[3.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_localization', 'ld_library_path_lib')
+[3.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/ld_library_path_lib.ps1'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/ld_library_path_lib.dsv'
+[3.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/ld_library_path_lib.sh'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization/bin'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization/lib/pkgconfig/robot_localization.pc'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages'
+[3.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_localization', 'pythonpath')
+[3.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/pythonpath.ps1'
+[3.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/pythonpath.dsv'
+[3.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/pythonpath.sh'
+[3.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.ps1'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.dsv'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.sh'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.bash'
+[3.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.zsh'
+[3.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/robot_localization/share/colcon-core/packages/robot_localization)
+[3.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav_msgs)
+[3.508s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs' for CMake module files
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs' for CMake config files
+[3.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav_msgs
+[3.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'cmake_prefix_path')
+[3.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.ps1'
+[3.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.dsv'
+[3.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.sh'
+[3.521s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib'
+[3.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'ld_library_path_lib')
+[3.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.ps1'
+[3.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.dsv'
+[3.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.sh'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs/bin'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/pkgconfig/vectornav_msgs.pc'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages'
+[3.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'pythonpath')
+[3.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.ps1'
+[3.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.dsv'
+[3.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.sh'
+[3.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.ps1'
+[3.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.dsv'
+[3.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.sh'
+[3.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.bash'
+[3.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.zsh'
+[3.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/colcon-core/packages/vectornav_msgs)
+[3.560s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_controller' for CMake module files
+[3.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/src/wasp_mini_controller' returned '0': PYTHONPATH=/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wasp_mini_controller build --build-base /home/wasp_mini/ros2_ws/build/wasp_mini_controller/build install --prefix /home/wasp_mini/ros2_ws/install/wasp_mini_controller --record /home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log --single-version-externally-managed
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_controller' for CMake config files
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib'
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/bin'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/pkgconfig/wasp_mini_controller.pc'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages'
+[3.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('wasp_mini_controller', 'pythonpath')
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/hook/pythonpath.ps1'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/hook/pythonpath.dsv'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/hook/pythonpath.sh'
+[3.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wasp_mini_controller)
+[3.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/package.ps1'
+[3.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/package.dsv'
+[3.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/package.sh'
+[3.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/package.bash'
+[3.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/wasp_mini_controller/package.zsh'
+[3.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/wasp_mini_controller/share/colcon-core/packages/wasp_mini_controller)
+[3.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_localization)
+[3.841s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization' for CMake module files
+[3.843s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization' for CMake config files
+[3.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_localization', 'cmake_prefix_path')
+[3.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/cmake_prefix_path.ps1'
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/cmake_prefix_path.dsv'
+[3.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/cmake_prefix_path.sh'
+[3.849s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization/lib'
+[3.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_localization', 'ld_library_path_lib')
+[3.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/ld_library_path_lib.ps1'
+[3.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/ld_library_path_lib.dsv'
+[3.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/ld_library_path_lib.sh'
+[3.852s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization/bin'
+[3.852s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization/lib/pkgconfig/robot_localization.pc'
+[3.852s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages'
+[3.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_localization', 'pythonpath')
+[3.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/pythonpath.ps1'
+[3.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/pythonpath.dsv'
+[3.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/hook/pythonpath.sh'
+[3.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.ps1'
+[3.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.dsv'
+[3.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.sh'
+[3.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.bash'
+[3.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.zsh'
+[3.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/robot_localization/share/colcon-core/packages/robot_localization)
+[3.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav_msgs)
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs' for CMake module files
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs' for CMake config files
+[3.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'cmake_prefix_path')
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.ps1'
+[3.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.dsv'
+[3.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.sh'
+[3.909s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib'
+[3.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'ld_library_path_lib')
+[3.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.ps1'
+[3.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.dsv'
+[3.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.sh'
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs/bin'
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/pkgconfig/vectornav_msgs.pc'
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages'
+[3.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'pythonpath')
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.ps1'
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.dsv'
+[3.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.sh'
+[3.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.ps1'
+[3.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.dsv'
+[3.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.sh'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.bash'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.zsh'
+[3.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/vectornav_msgs/share/colcon-core/packages/vectornav_msgs)
+[3.922s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wasp_mini/ros2_ws/src/vectornav/vectornav' with build type 'ament_cmake'
+[3.922s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wasp_mini/ros2_ws/src/vectornav/vectornav'
+[3.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.928s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/robot_localization:/home/wasp_mini/ros2_ws/install/main_waspmini:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib:/home/wasp_mini/ros2_ws/install/vectornav/lib:/home/wasp_mini/ros2_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav -- -j4 -l4
+[4.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav' returned '0': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/robot_localization:/home/wasp_mini/ros2_ws/install/main_waspmini:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib:/home/wasp_mini/ros2_ws/install/vectornav/lib:/home/wasp_mini/ros2_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav -- -j4 -l4
+[4.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/robot_localization:/home/wasp_mini/ros2_ws/install/main_waspmini:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib:/home/wasp_mini/ros2_ws/install/vectornav/lib:/home/wasp_mini/ros2_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav
+[4.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav)
+[4.187s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav' for CMake module files
+[4.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav' returned '0': CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/vectornav:/home/wasp_mini/ros2_ws/install/sick_scan2:/home/wasp_mini/ros2_ws/install/robot_localization:/home/wasp_mini/ros2_ws/install/main_waspmini:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib:/home/wasp_mini/ros2_ws/install/vectornav/lib:/home/wasp_mini/ros2_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav
+[4.190s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav' for CMake config files
+[4.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'cmake_prefix_path')
+[4.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/cmake_prefix_path.ps1'
+[4.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/cmake_prefix_path.dsv'
+[4.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/cmake_prefix_path.sh'
+[4.194s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav/lib'
+[4.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'ld_library_path_lib')
+[4.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/ld_library_path_lib.ps1'
+[4.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/ld_library_path_lib.dsv'
+[4.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/ld_library_path_lib.sh'
+[4.197s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav/bin'
+[4.197s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav/lib/pkgconfig/vectornav.pc'
+[4.197s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav/lib/python3.8/site-packages'
+[4.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.ps1'
+[4.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.dsv'
+[4.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.sh'
+[4.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.bash'
+[4.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.zsh'
+[4.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/vectornav/share/colcon-core/packages/vectornav)
+[4.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav)
+[4.248s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav' for CMake module files
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav' for CMake config files
+[4.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'cmake_prefix_path')
+[4.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/cmake_prefix_path.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/cmake_prefix_path.dsv'
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/cmake_prefix_path.sh'
+[4.252s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav/lib'
+[4.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'ld_library_path_lib')
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/ld_library_path_lib.ps1'
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/ld_library_path_lib.dsv'
+[4.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/hook/ld_library_path_lib.sh'
+[4.255s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav/bin'
+[4.255s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav/lib/pkgconfig/vectornav.pc'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/wasp_mini/ros2_ws/install/vectornav/lib/python3.8/site-packages'
+[4.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.ps1'
+[4.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.dsv'
+[4.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.sh'
+[4.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.bash'
+[4.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.zsh'
+[4.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wasp_mini/ros2_ws/install/vectornav/share/colcon-core/packages/vectornav)
+[4.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.262s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.275s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.311s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wasp_mini/ros2_ws/install/local_setup.ps1'
+[4.315s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wasp_mini/ros2_ws/install/_local_setup_util_ps1.py'
+[4.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wasp_mini/ros2_ws/install/setup.ps1'
+[4.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wasp_mini/ros2_ws/install/local_setup.sh'
+[4.323s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wasp_mini/ros2_ws/install/_local_setup_util_sh.py'
+[4.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wasp_mini/ros2_ws/install/setup.sh'
+[4.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wasp_mini/ros2_ws/install/local_setup.bash'
+[4.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wasp_mini/ros2_ws/install/setup.bash'
+[4.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wasp_mini/ros2_ws/install/local_setup.zsh'
+[4.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wasp_mini/ros2_ws/install/setup.zsh'

@@ -1,0 +1,789 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (main_waspmini) JobQueued: {'identifier': 'main_waspmini', 'dependencies': OrderedDict()}
+[0.001155] (sick_scan2) JobQueued: {'identifier': 'sick_scan2', 'dependencies': OrderedDict()}
+[0.001458] (wasp_mini_controller) JobQueued: {'identifier': 'wasp_mini_controller', 'dependencies': OrderedDict()}
+[0.002099] (wasp_mini_joy) JobQueued: {'identifier': 'wasp_mini_joy', 'dependencies': OrderedDict()}
+[0.002260] (main_waspmini) JobStarted: {'identifier': 'main_waspmini'}
+[0.036702] (sick_scan2) JobStarted: {'identifier': 'sick_scan2'}
+[0.048468] (wasp_mini_controller) JobStarted: {'identifier': 'wasp_mini_controller'}
+[0.067540] (wasp_mini_joy) JobStarted: {'identifier': 'wasp_mini_joy'}
+[0.084206] (main_waspmini) JobProgress: {'identifier': 'main_waspmini', 'progress': 'cmake'}
+[0.086507] (main_waspmini) JobProgress: {'identifier': 'main_waspmini', 'progress': 'build'}
+[0.089498] (main_waspmini) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wasp_mini/ros2_ws/build/main_waspmini', '--', '-j4', '-l4'], 'cwd': '/home/wasp_mini/ros2_ws/build/main_waspmini', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1044'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1659'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1087,unix/sutd:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '8d12a216e5fd472e9661c76b8aae7c56'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/home/wasp_mini/ros2_ws/install/main_waspmini:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d49a1dd-895e-4429-994d-0de534377810'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/main_waspmini'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini')]), 'shell': False}
+[0.099576] (-) TimerEvent: {}
+[0.100184] (sick_scan2) JobProgress: {'identifier': 'sick_scan2', 'progress': 'cmake'}
+[0.100599] (sick_scan2) Command: {'cmd': ['/usr/bin/cmake', '/home/wasp_mini/ros2_ws/src/sick_scan2', '-DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/sick_scan2'], 'cwd': '/home/wasp_mini/ros2_ws/build/sick_scan2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1044'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1659'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1087,unix/sutd:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '8d12a216e5fd472e9661c76b8aae7c56'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/home/wasp_mini/ros2_ws/install/main_waspmini:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d49a1dd-895e-4429-994d-0de534377810'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/sick_scan2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini')]), 'shell': False}
+[0.199853] (-) TimerEvent: {}
+[0.300557] (-) TimerEvent: {}
+[0.401013] (-) TimerEvent: {}
+[0.501672] (-) TimerEvent: {}
+[0.593518] (wasp_mini_joy) JobProgress: {'identifier': 'wasp_mini_joy', 'progress': 'cmake'}
+[0.598503] (wasp_mini_joy) JobProgress: {'identifier': 'wasp_mini_joy', 'progress': 'build'}
+[0.599416] (wasp_mini_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wasp_mini/ros2_ws/build/wasp_mini_joy', '--', '-j4', '-l4'], 'cwd': '/home/wasp_mini/ros2_ws/build/wasp_mini_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1044'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1659'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1087,unix/sutd:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '8d12a216e5fd472e9661c76b8aae7c56'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/home/wasp_mini/ros2_ws/install/main_waspmini:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d49a1dd-895e-4429-994d-0de534377810'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/wasp_mini_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini')]), 'shell': False}
+[0.603437] (-) TimerEvent: {}
+[0.617856] (wasp_mini_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wasp_mini_controller', 'build', '--build-base', '/home/wasp_mini/ros2_ws/build/wasp_mini_controller/build', 'install', '--prefix', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller', '--record', '/home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/wasp_mini/ros2_ws/src/wasp_mini_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_SG:en', 'USER': 'wasp_mini', 'SSH_AGENT_PID': '1044', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/wasp_mini', 'OLDPWD': '/home/wasp_mini/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '775', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1659', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/wasp_mini/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'wasp_mini', 'JOURNAL_STREAM': '8:35546', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wasp_mini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sutd:@/tmp/.ICE-unix/1087,unix/sutd:/tmp/.ICE-unix/1087', 'INVOCATION_ID': '8d12a216e5fd472e9661c76b8aae7c56', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/home/wasp_mini/ros2_ws/install/main_waspmini:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1d49a1dd-895e-4429-994d-0de534377810', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wasp_mini/ros2_ws/build/wasp_mini_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini'}, 'shell': False}
+[0.703571] (-) TimerEvent: {}
+[0.804104] (-) TimerEvent: {}
+[0.808716] (wasp_mini_joy) StdoutLine: {'line': b'[100%] Built target joy_pub\n'}
+[0.811324] (main_waspmini) StdoutLine: {'line': b'[100%] Built target joy_pub\n'}
+[0.837751] (wasp_mini_joy) CommandEnded: {'returncode': 0}
+[0.849012] (main_waspmini) CommandEnded: {'returncode': 0}
+[0.904236] (-) TimerEvent: {}
+[1.004797] (-) TimerEvent: {}
+[1.072970] (sick_scan2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.106828] (-) TimerEvent: {}
+[1.156417] (wasp_mini_joy) JobProgress: {'identifier': 'wasp_mini_joy', 'progress': 'install'}
+[1.182694] (wasp_mini_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wasp_mini/ros2_ws/build/wasp_mini_joy'], 'cwd': '/home/wasp_mini/ros2_ws/build/wasp_mini_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1044'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1659'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1087,unix/sutd:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '8d12a216e5fd472e9661c76b8aae7c56'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/home/wasp_mini/ros2_ws/install/main_waspmini:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d49a1dd-895e-4429-994d-0de534377810'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/wasp_mini_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini')]), 'shell': False}
+[1.187769] (main_waspmini) JobProgress: {'identifier': 'main_waspmini', 'progress': 'install'}
+[1.188379] (main_waspmini) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wasp_mini/ros2_ws/build/main_waspmini'], 'cwd': '/home/wasp_mini/ros2_ws/build/main_waspmini', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1044'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1659'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1087,unix/sutd:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '8d12a216e5fd472e9661c76b8aae7c56'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/home/wasp_mini/ros2_ws/install/main_waspmini:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d49a1dd-895e-4429-994d-0de534377810'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/main_waspmini'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini')]), 'shell': False}
+[1.199870] (wasp_mini_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.206927] (-) TimerEvent: {}
+[1.208483] (main_waspmini) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.209850] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/wasp_mini_joy/joy_pub\n'}
+[1.216311] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/pythonpath.sh\n'}
+[1.216618] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/pythonpath.dsv\n'}
+[1.216795] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini\n'}
+[1.218315] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/package_run_dependencies/wasp_mini_joy\n'}
+[1.220236] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/parent_prefix_path/wasp_mini_joy\n'}
+[1.220521] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini/__init__.py\n'}
+[1.226259] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.sh\n'}
+[1.228150] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.dsv\n'}
+[1.229521] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.sh\n'}
+[1.230332] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.dsv\n'}
+[1.230763] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.bash\n'}
+[1.231294] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.sh\n'}
+[1.232734] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.zsh\n'}
+[1.233347] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.dsv\n'}
+[1.234042] (wasp_mini_joy) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.dsv\n'}
+[1.235277] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/packages/wasp_mini_joy\n'}
+[1.241534] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig.cmake\n'}
+[1.242618] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig-version.cmake\n'}
+[1.252355] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.xml\n'}
+[1.260220] (wasp_mini_joy) CommandEnded: {'returncode': 0}
+[1.273090] (wasp_mini_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.277313] (wasp_mini_controller) StdoutLine: {'line': b'writing ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/PKG-INFO\n'}
+[1.280160] (wasp_mini_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/dependency_links.txt\n'}
+[1.282374] (wasp_mini_controller) StdoutLine: {'line': b'writing entry points to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/entry_points.txt\n'}
+[1.284567] (wasp_mini_controller) StdoutLine: {'line': b'writing requirements to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/requires.txt\n'}
+[1.285659] (wasp_mini_controller) StdoutLine: {'line': b'writing top-level names to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/top_level.txt\n'}
+[1.307044] (-) TimerEvent: {}
+[1.345354] (main_waspmini) StdoutLine: {'line': b"Listing '/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages/main_waspmini'...\n"}
+[1.358414] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/joy_pub\n'}
+[1.360567] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini//launch\n'}
+[1.366713] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini//launch/controller.launch.py\n'}
+[1.369296] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/motor_FR.py\n'}
+[1.369764] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/motor_FL.py\n'}
+[1.369978] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/actuator_fb.py\n'}
+[1.370106] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/lib/main_waspmini/main.py\n'}
+[1.374829] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/package_run_dependencies/main_waspmini\n'}
+[1.375762] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/parent_prefix_path/main_waspmini\n'}
+[1.376177] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/ament_prefix_path.sh\n'}
+[1.376786] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/ament_prefix_path.dsv\n'}
+[1.377074] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/path.sh\n'}
+[1.377296] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/environment/path.dsv\n'}
+[1.377545] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.bash\n'}
+[1.377665] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.sh\n'}
+[1.377773] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.zsh\n'}
+[1.377888] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/local_setup.dsv\n'}
+[1.378007] (main_waspmini) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.dsv\n'}
+[1.379825] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/ament_index/resource_index/packages/main_waspmini\n'}
+[1.381429] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/cmake/main_waspminiConfig.cmake\n'}
+[1.381779] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/cmake/main_waspminiConfig-version.cmake\n'}
+[1.381997] (main_waspmini) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/main_waspmini/share/main_waspmini/package.xml\n'}
+[1.385408] (main_waspmini) CommandEnded: {'returncode': 0}
+[1.407176] (-) TimerEvent: {}
+[1.441424] (wasp_mini_joy) JobEnded: {'identifier': 'wasp_mini_joy', 'rc': 0}
+[1.443356] (wasp_mini_controller) StdoutLine: {'line': b"reading manifest file '../../build/wasp_mini_controller/wasp_mini_controller.egg-info/SOURCES.txt'\n"}
+[1.447929] (wasp_mini_controller) StdoutLine: {'line': b"writing manifest file '../../build/wasp_mini_controller/wasp_mini_controller.egg-info/SOURCES.txt'\n"}
+[1.448237] (wasp_mini_controller) StdoutLine: {'line': b'running build\n'}
+[1.448363] (wasp_mini_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.453087] (wasp_mini_controller) StdoutLine: {'line': b'running install\n'}
+[1.456358] (wasp_mini_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.465720] (wasp_mini_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.473414] (wasp_mini_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.478623] (main_waspmini) JobEnded: {'identifier': 'main_waspmini', 'rc': 0}
+[1.485182] (wasp_mini_controller) StdoutLine: {'line': b"removing '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.485811] (wasp_mini_controller) StdoutLine: {'line': b'Copying ../../build/wasp_mini_controller/wasp_mini_controller.egg-info to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller-0.0.0-py3.8.egg-info\n'}
+[1.507962] (-) TimerEvent: {}
+[1.509311] (wasp_mini_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.605854] (wasp_mini_controller) StdoutLine: {'line': b'Installing actuator_position script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller\n'}
+[1.620731] (-) TimerEvent: {}
+[1.626344] (wasp_mini_controller) StdoutLine: {'line': b'Installing main_node script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller\n'}
+[1.627759] (wasp_mini_controller) StdoutLine: {'line': b'Installing motor_FL script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller\n'}
+[1.628830] (wasp_mini_controller) StdoutLine: {'line': b'Installing motor_FR script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller\n'}
+[1.630671] (wasp_mini_controller) StdoutLine: {'line': b"writing list of installed files to '/home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log'\n"}
+[1.693592] (sick_scan2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.720994] (-) TimerEvent: {}
+[1.743608] (wasp_mini_controller) CommandEnded: {'returncode': 0}
+[1.780714] (sick_scan2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.797102] (wasp_mini_controller) JobEnded: {'identifier': 'wasp_mini_controller', 'rc': 0}
+[1.821274] (-) TimerEvent: {}
+[1.922240] (-) TimerEvent: {}
+[2.006354] (sick_scan2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.009615] (sick_scan2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.022346] (-) TimerEvent: {}
+[2.122118] (sick_scan2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.122342] (-) TimerEvent: {}
+[2.156273] (sick_scan2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.157307] (sick_scan2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.163091] (sick_scan2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.222490] (-) TimerEvent: {}
+[2.288579] (sick_scan2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.290390] (sick_scan2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.322632] (-) TimerEvent: {}
+[2.419065] (sick_scan2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.422744] (-) TimerEvent: {}
+[2.440519] (sick_scan2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.441401] (sick_scan2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.467197] (sick_scan2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.516946] (sick_scan2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[2.517240] (sick_scan2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.522936] (-) TimerEvent: {}
+[2.623366] (-) TimerEvent: {}
+[2.723741] (-) TimerEvent: {}
+[2.824120] (-) TimerEvent: {}
+[2.924482] (-) TimerEvent: {}
+[2.980870] (sick_scan2) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.024608] (-) TimerEvent: {}
+[3.090799] (sick_scan2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.105147] (sick_scan2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.124726] (-) TimerEvent: {}
+[3.225273] (-) TimerEvent: {}
+[3.326008] (-) TimerEvent: {}
+[3.368092] (sick_scan2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.423774] (sick_scan2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.426135] (-) TimerEvent: {}
+[3.526549] (-) TimerEvent: {}
+[3.597251] (sick_scan2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.626700] (-) TimerEvent: {}
+[3.715781] (sick_scan2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.719891] (sick_scan2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.723021] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.726815] (-) TimerEvent: {}
+[3.827204] (-) TimerEvent: {}
+[3.850938] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.851400] (sick_scan2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.927351] (-) TimerEvent: {}
+[3.970477] (sick_scan2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.970965] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.027472] (-) TimerEvent: {}
+[4.069473] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.069852] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.127613] (-) TimerEvent: {}
+[4.181035] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.182827] (sick_scan2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.227728] (-) TimerEvent: {}
+[4.328111] (-) TimerEvent: {}
+[4.428525] (-) TimerEvent: {}
+[4.512933] (sick_scan2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.528684] (-) TimerEvent: {}
+[4.629088] (-) TimerEvent: {}
+[4.729475] (-) TimerEvent: {}
+[4.789757] (sick_scan2) StdoutLine: {'line': b'-- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[4.815281] (sick_scan2) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[4.829625] (-) TimerEvent: {}
+[4.882776] (sick_scan2) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[4.929743] (-) TimerEvent: {}
+[5.030251] (-) TimerEvent: {}
+[5.130696] (-) TimerEvent: {}
+[5.231190] (-) TimerEvent: {}
+[5.331712] (-) TimerEvent: {}
+[5.432151] (-) TimerEvent: {}
+[5.532504] (-) TimerEvent: {}
+[5.632447] (sick_scan2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread \n'}
+[5.632710] (-) TimerEvent: {}
+[5.658710] (sick_scan2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.732847] (-) TimerEvent: {}
+[5.824575] (sick_scan2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.832961] (-) TimerEvent: {}
+[5.836542] (sick_scan2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.837152] (sick_scan2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/wasp_mini/ros2_ws/src/sick_scan2/include\n'}
+[5.837316] (sick_scan2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.849073] (sick_scan2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.849292] (sick_scan2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.851503] (sick_scan2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.855256] (sick_scan2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.857655] (sick_scan2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.870423] (sick_scan2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.870658] (sick_scan2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.872932] (sick_scan2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.880536] (sick_scan2) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.917777] (sick_scan2) StdoutLine: {'line': b'-- Generating done\n'}
+[5.922397] (sick_scan2) StdoutLine: {'line': b'-- Build files have been written to: /home/wasp_mini/ros2_ws/build/sick_scan2\n'}
+[5.933091] (-) TimerEvent: {}
+[5.936788] (sick_scan2) CommandEnded: {'returncode': 0}
+[5.938027] (sick_scan2) JobProgress: {'identifier': 'sick_scan2', 'progress': 'build'}
+[5.940579] (sick_scan2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wasp_mini/ros2_ws/build/sick_scan2', '--', '-j4', '-l4'], 'cwd': '/home/wasp_mini/ros2_ws/build/sick_scan2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1044'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1659'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1087,unix/sutd:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '8d12a216e5fd472e9661c76b8aae7c56'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/home/wasp_mini/ros2_ws/install/main_waspmini:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d49a1dd-895e-4429-994d-0de534377810'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/sick_scan2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini')]), 'shell': False}
+[6.011897] (sick_scan2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sick_scan2_lib\x1b[0m\n'}
+[6.033317] (-) TimerEvent: {}
+[6.134385] (-) TimerEvent: {}
+[6.234788] (-) TimerEvent: {}
+[6.304264] (sick_scan2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_generic_laser.cpp.o\x1b[0m\n'}
+[6.304639] (sick_scan2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_generic_parser.cpp.o\x1b[0m\n'}
+[6.305008] (sick_scan2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_scan_common.cpp.o\x1b[0m\n'}
+[6.306232] (sick_scan2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_scan_common_tcp.cpp.o\x1b[0m\n'}
+[6.334917] (-) TimerEvent: {}
+[6.435363] (-) TimerEvent: {}
+[6.536017] (-) TimerEvent: {}
+[6.636560] (-) TimerEvent: {}
+[6.998719] (-) TimerEvent: {}
+[7.099201] (-) TimerEvent: {}
+[7.199646] (-) TimerEvent: {}
+[7.300310] (-) TimerEvent: {}
+[7.400906] (-) TimerEvent: {}
+[7.501433] (-) TimerEvent: {}
+[7.601958] (-) TimerEvent: {}
+[7.702442] (-) TimerEvent: {}
+[7.802933] (-) TimerEvent: {}
+[7.903434] (-) TimerEvent: {}
+[8.004123] (-) TimerEvent: {}
+[8.104632] (-) TimerEvent: {}
+[8.205142] (-) TimerEvent: {}
+[8.305658] (-) TimerEvent: {}
+[8.406190] (-) TimerEvent: {}
+[8.506990] (-) TimerEvent: {}
+[8.608031] (-) TimerEvent: {}
+[8.708720] (-) TimerEvent: {}
+[8.809447] (-) TimerEvent: {}
+[8.909951] (-) TimerEvent: {}
+[9.010426] (-) TimerEvent: {}
+[9.110963] (-) TimerEvent: {}
+[9.211471] (-) TimerEvent: {}
+[9.311956] (-) TimerEvent: {}
+[9.412462] (-) TimerEvent: {}
+[9.513593] (-) TimerEvent: {}
+[9.614267] (-) TimerEvent: {}
+[9.714796] (-) TimerEvent: {}
+[9.815409] (-) TimerEvent: {}
+[9.916089] (-) TimerEvent: {}
+[10.016795] (-) TimerEvent: {}
+[10.117552] (-) TimerEvent: {}
+[10.218331] (-) TimerEvent: {}
+[10.318920] (-) TimerEvent: {}
+[10.419530] (-) TimerEvent: {}
+[10.519956] (-) TimerEvent: {}
+[10.620426] (-) TimerEvent: {}
+[10.720924] (-) TimerEvent: {}
+[10.821407] (-) TimerEvent: {}
+[10.924091] (-) TimerEvent: {}
+[11.024633] (-) TimerEvent: {}
+[11.125469] (-) TimerEvent: {}
+[11.234050] (-) TimerEvent: {}
+[11.339405] (-) TimerEvent: {}
+[11.439860] (-) TimerEvent: {}
+[11.540346] (-) TimerEvent: {}
+[11.641027] (-) TimerEvent: {}
+[11.741725] (-) TimerEvent: {}
+[11.960550] (-) TimerEvent: {}
+[12.061550] (-) TimerEvent: {}
+[12.162796] (-) TimerEvent: {}
+[12.263797] (-) TimerEvent: {}
+[12.364470] (-) TimerEvent: {}
+[12.465425] (-) TimerEvent: {}
+[12.565879] (-) TimerEvent: {}
+[12.666332] (-) TimerEvent: {}
+[12.767001] (-) TimerEvent: {}
+[12.867640] (-) TimerEvent: {}
+[12.968135] (-) TimerEvent: {}
+[13.068495] (-) TimerEvent: {}
+[13.169055] (-) TimerEvent: {}
+[13.269998] (-) TimerEvent: {}
+[13.370553] (-) TimerEvent: {}
+[13.470988] (-) TimerEvent: {}
+[13.571526] (-) TimerEvent: {}
+[13.672076] (-) TimerEvent: {}
+[13.772766] (-) TimerEvent: {}
+[13.873404] (-) TimerEvent: {}
+[13.977283] (-) TimerEvent: {}
+[14.078062] (-) TimerEvent: {}
+[14.178716] (-) TimerEvent: {}
+[14.279432] (-) TimerEvent: {}
+[14.385168] (-) TimerEvent: {}
+[14.429631] (sick_scan2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/tcp.cpp.o\x1b[0m\n'}
+[14.485305] (-) TimerEvent: {}
+[14.585809] (-) TimerEvent: {}
+[14.686547] (-) TimerEvent: {}
+[14.787111] (-) TimerEvent: {}
+[14.887619] (-) TimerEvent: {}
+[14.988338] (-) TimerEvent: {}
+[15.089013] (-) TimerEvent: {}
+[15.189764] (-) TimerEvent: {}
+[15.290477] (-) TimerEvent: {}
+[15.391142] (-) TimerEvent: {}
+[15.491833] (-) TimerEvent: {}
+[15.593241] (-) TimerEvent: {}
+[15.694258] (-) TimerEvent: {}
+[15.794681] (-) TimerEvent: {}
+[15.895124] (-) TimerEvent: {}
+[15.995514] (-) TimerEvent: {}
+[16.095945] (-) TimerEvent: {}
+[16.196735] (-) TimerEvent: {}
+[16.297404] (-) TimerEvent: {}
+[16.398171] (-) TimerEvent: {}
+[16.498902] (-) TimerEvent: {}
+[16.599338] (-) TimerEvent: {}
+[16.699742] (-) TimerEvent: {}
+[16.800106] (-) TimerEvent: {}
+[16.900633] (-) TimerEvent: {}
+[17.001143] (-) TimerEvent: {}
+[17.101813] (-) TimerEvent: {}
+[17.202471] (-) TimerEvent: {}
+[17.302962] (-) TimerEvent: {}
+[17.403536] (-) TimerEvent: {}
+[17.503986] (-) TimerEvent: {}
+[17.604478] (-) TimerEvent: {}
+[17.704998] (-) TimerEvent: {}
+[17.805477] (-) TimerEvent: {}
+[17.905960] (-) TimerEvent: {}
+[18.006424] (-) TimerEvent: {}
+[18.106824] (-) TimerEvent: {}
+[18.207278] (-) TimerEvent: {}
+[18.307765] (-) TimerEvent: {}
+[18.408346] (-) TimerEvent: {}
+[18.508928] (-) TimerEvent: {}
+[18.609656] (-) TimerEvent: {}
+[18.710197] (-) TimerEvent: {}
+[18.810819] (-) TimerEvent: {}
+[18.911244] (-) TimerEvent: {}
+[19.011639] (-) TimerEvent: {}
+[19.112032] (-) TimerEvent: {}
+[19.212441] (-) TimerEvent: {}
+[19.313079] (-) TimerEvent: {}
+[19.413425] (-) TimerEvent: {}
+[19.513858] (-) TimerEvent: {}
+[19.614472] (-) TimerEvent: {}
+[19.715183] (-) TimerEvent: {}
+[19.815978] (-) TimerEvent: {}
+[19.916414] (-) TimerEvent: {}
+[20.017039] (-) TimerEvent: {}
+[20.117664] (-) TimerEvent: {}
+[20.218089] (-) TimerEvent: {}
+[20.318520] (-) TimerEvent: {}
+[20.418888] (-) TimerEvent: {}
+[20.541681] (-) TimerEvent: {}
+[20.697446] (-) TimerEvent: {}
+[20.797831] (-) TimerEvent: {}
+[20.898439] (-) TimerEvent: {}
+[20.999042] (-) TimerEvent: {}
+[21.099538] (-) TimerEvent: {}
+[21.199959] (-) TimerEvent: {}
+[21.300582] (-) TimerEvent: {}
+[21.401286] (-) TimerEvent: {}
+[21.502815] (-) TimerEvent: {}
+[21.607070] (-) TimerEvent: {}
+[21.707600] (-) TimerEvent: {}
+[21.808261] (-) TimerEvent: {}
+[21.909062] (-) TimerEvent: {}
+[22.094038] (-) TimerEvent: {}
+[22.194485] (-) TimerEvent: {}
+[22.295639] (-) TimerEvent: {}
+[22.396471] (-) TimerEvent: {}
+[22.498193] (-) TimerEvent: {}
+[22.598621] (-) TimerEvent: {}
+[22.699104] (-) TimerEvent: {}
+[22.799452] (-) TimerEvent: {}
+[22.899827] (-) TimerEvent: {}
+[23.000248] (-) TimerEvent: {}
+[23.100685] (-) TimerEvent: {}
+[23.201166] (-) TimerEvent: {}
+[23.301617] (-) TimerEvent: {}
+[23.402070] (-) TimerEvent: {}
+[23.502508] (-) TimerEvent: {}
+[23.602939] (-) TimerEvent: {}
+[23.703350] (-) TimerEvent: {}
+[23.803819] (-) TimerEvent: {}
+[23.904223] (-) TimerEvent: {}
+[24.005672] (-) TimerEvent: {}
+[24.106133] (-) TimerEvent: {}
+[24.206791] (-) TimerEvent: {}
+[24.307297] (-) TimerEvent: {}
+[24.407898] (-) TimerEvent: {}
+[24.508528] (-) TimerEvent: {}
+[24.609158] (-) TimerEvent: {}
+[24.709764] (-) TimerEvent: {}
+[24.810356] (-) TimerEvent: {}
+[24.910934] (-) TimerEvent: {}
+[25.011578] (-) TimerEvent: {}
+[25.113084] (-) TimerEvent: {}
+[25.213544] (-) TimerEvent: {}
+[25.314233] (-) TimerEvent: {}
+[25.415014] (-) TimerEvent: {}
+[25.515464] (-) TimerEvent: {}
+[25.615855] (-) TimerEvent: {}
+[25.716340] (-) TimerEvent: {}
+[25.816736] (-) TimerEvent: {}
+[25.917160] (-) TimerEvent: {}
+[26.017905] (-) TimerEvent: {}
+[26.118538] (-) TimerEvent: {}
+[26.219026] (-) TimerEvent: {}
+[26.319424] (-) TimerEvent: {}
+[26.419790] (-) TimerEvent: {}
+[26.520220] (-) TimerEvent: {}
+[26.620955] (-) TimerEvent: {}
+[26.721373] (-) TimerEvent: {}
+[26.821790] (-) TimerEvent: {}
+[26.922404] (-) TimerEvent: {}
+[27.022887] (-) TimerEvent: {}
+[27.123475] (-) TimerEvent: {}
+[27.223906] (-) TimerEvent: {}
+[27.324345] (-) TimerEvent: {}
+[27.425335] (-) TimerEvent: {}
+[27.525787] (-) TimerEvent: {}
+[27.626268] (-) TimerEvent: {}
+[27.726737] (-) TimerEvent: {}
+[27.827233] (-) TimerEvent: {}
+[27.927707] (-) TimerEvent: {}
+[28.028145] (-) TimerEvent: {}
+[28.128578] (-) TimerEvent: {}
+[28.229003] (-) TimerEvent: {}
+[28.329442] (-) TimerEvent: {}
+[28.429894] (-) TimerEvent: {}
+[28.530392] (-) TimerEvent: {}
+[28.630827] (-) TimerEvent: {}
+[28.731293] (-) TimerEvent: {}
+[28.831741] (-) TimerEvent: {}
+[28.932160] (-) TimerEvent: {}
+[29.032585] (-) TimerEvent: {}
+[29.133003] (-) TimerEvent: {}
+[29.233431] (-) TimerEvent: {}
+[29.333858] (-) TimerEvent: {}
+[29.434301] (-) TimerEvent: {}
+[29.534758] (-) TimerEvent: {}
+[29.635251] (-) TimerEvent: {}
+[29.735677] (-) TimerEvent: {}
+[29.836040] (-) TimerEvent: {}
+[29.937057] (-) TimerEvent: {}
+[30.037466] (-) TimerEvent: {}
+[30.137951] (-) TimerEvent: {}
+[30.238380] (-) TimerEvent: {}
+[30.338800] (-) TimerEvent: {}
+[30.439252] (-) TimerEvent: {}
+[30.539676] (-) TimerEvent: {}
+[30.640073] (-) TimerEvent: {}
+[30.740475] (-) TimerEvent: {}
+[30.840902] (-) TimerEvent: {}
+[30.941379] (-) TimerEvent: {}
+[31.042055] (-) TimerEvent: {}
+[31.142772] (-) TimerEvent: {}
+[31.243191] (-) TimerEvent: {}
+[31.343781] (-) TimerEvent: {}
+[31.443890] (sick_scan2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/errorhandler.cpp.o\x1b[0m\n'}
+[31.459242] (-) TimerEvent: {}
+[31.560011] (-) TimerEvent: {}
+[31.660878] (-) TimerEvent: {}
+[31.761661] (-) TimerEvent: {}
+[31.862620] (-) TimerEvent: {}
+[31.963351] (-) TimerEvent: {}
+[32.063880] (-) TimerEvent: {}
+[32.164283] (-) TimerEvent: {}
+[32.264713] (-) TimerEvent: {}
+[32.269853] (sick_scan2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/toolbox.cpp.o\x1b[0m\n'}
+[32.364848] (-) TimerEvent: {}
+[32.465363] (-) TimerEvent: {}
+[32.565982] (-) TimerEvent: {}
+[32.666484] (-) TimerEvent: {}
+[32.766911] (-) TimerEvent: {}
+[32.867319] (-) TimerEvent: {}
+[32.967726] (-) TimerEvent: {}
+[33.067946] (sick_scan2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/Time.cpp.o\x1b[0m\n'}
+[33.068280] (-) TimerEvent: {}
+[33.168614] (-) TimerEvent: {}
+[33.268967] (-) TimerEvent: {}
+[33.369329] (-) TimerEvent: {}
+[33.440437] (sick_scan2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/colaa.cpp.o\x1b[0m\n'}
+[33.469449] (-) TimerEvent: {}
+[33.569793] (-) TimerEvent: {}
+[33.670274] (-) TimerEvent: {}
+[33.770733] (-) TimerEvent: {}
+[33.871424] (-) TimerEvent: {}
+[33.896285] (sick_scan2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/colab.cpp.o\x1b[0m\n'}
+[33.971727] (-) TimerEvent: {}
+[34.072486] (-) TimerEvent: {}
+[34.172835] (-) TimerEvent: {}
+[34.273259] (-) TimerEvent: {}
+[34.287477] (sick_scan2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/binPrintf.cpp.o\x1b[0m\n'}
+[34.373363] (-) TimerEvent: {}
+[34.473766] (-) TimerEvent: {}
+[34.574158] (-) TimerEvent: {}
+[34.674587] (-) TimerEvent: {}
+[34.768642] (sick_scan2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/binScanf.cpp.o\x1b[0m\n'}
+[34.774679] (-) TimerEvent: {}
+[34.875170] (-) TimerEvent: {}
+[34.975691] (-) TimerEvent: {}
+[35.050895] (sick_scan2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_scan_common_nw.cpp.o\x1b[0m\n'}
+[35.075816] (-) TimerEvent: {}
+[35.176225] (-) TimerEvent: {}
+[35.276663] (-) TimerEvent: {}
+[35.377061] (-) TimerEvent: {}
+[35.477438] (-) TimerEvent: {}
+[35.577793] (-) TimerEvent: {}
+[35.592075] (sick_scan2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_generic_imu.cpp.o\x1b[0m\n'}
+[35.677951] (-) TimerEvent: {}
+[35.778367] (-) TimerEvent: {}
+[35.878752] (-) TimerEvent: {}
+[35.979143] (-) TimerEvent: {}
+[36.079500] (-) TimerEvent: {}
+[36.179928] (-) TimerEvent: {}
+[36.280319] (-) TimerEvent: {}
+[36.380665] (-) TimerEvent: {}
+[36.480998] (-) TimerEvent: {}
+[36.581358] (-) TimerEvent: {}
+[36.681742] (-) TimerEvent: {}
+[36.782142] (-) TimerEvent: {}
+[36.882717] (-) TimerEvent: {}
+[36.983150] (-) TimerEvent: {}
+[37.083623] (-) TimerEvent: {}
+[37.184144] (-) TimerEvent: {}
+[37.284610] (-) TimerEvent: {}
+[37.384979] (-) TimerEvent: {}
+[37.485432] (-) TimerEvent: {}
+[37.585945] (-) TimerEvent: {}
+[37.686384] (-) TimerEvent: {}
+[37.786796] (-) TimerEvent: {}
+[37.887319] (-) TimerEvent: {}
+[37.987760] (-) TimerEvent: {}
+[38.088200] (-) TimerEvent: {}
+[38.188645] (-) TimerEvent: {}
+[38.289113] (-) TimerEvent: {}
+[38.389488] (-) TimerEvent: {}
+[38.489856] (-) TimerEvent: {}
+[38.590258] (-) TimerEvent: {}
+[38.690651] (-) TimerEvent: {}
+[38.791031] (-) TimerEvent: {}
+[38.891404] (-) TimerEvent: {}
+[38.991824] (-) TimerEvent: {}
+[39.092265] (-) TimerEvent: {}
+[39.192775] (-) TimerEvent: {}
+[39.293179] (-) TimerEvent: {}
+[39.393541] (-) TimerEvent: {}
+[39.493934] (-) TimerEvent: {}
+[39.594264] (-) TimerEvent: {}
+[39.694605] (-) TimerEvent: {}
+[39.794959] (-) TimerEvent: {}
+[39.895321] (-) TimerEvent: {}
+[39.995704] (-) TimerEvent: {}
+[40.096150] (-) TimerEvent: {}
+[40.196515] (-) TimerEvent: {}
+[40.297001] (-) TimerEvent: {}
+[40.397435] (-) TimerEvent: {}
+[40.497930] (-) TimerEvent: {}
+[40.598413] (-) TimerEvent: {}
+[40.698991] (-) TimerEvent: {}
+[40.799466] (-) TimerEvent: {}
+[40.899969] (-) TimerEvent: {}
+[41.000505] (-) TimerEvent: {}
+[41.101001] (-) TimerEvent: {}
+[41.201497] (-) TimerEvent: {}
+[41.301973] (-) TimerEvent: {}
+[41.402398] (-) TimerEvent: {}
+[41.502750] (-) TimerEvent: {}
+[41.603107] (-) TimerEvent: {}
+[41.703490] (-) TimerEvent: {}
+[41.803861] (-) TimerEvent: {}
+[41.904324] (-) TimerEvent: {}
+[42.004663] (-) TimerEvent: {}
+[42.105067] (-) TimerEvent: {}
+[42.205506] (-) TimerEvent: {}
+[42.305905] (-) TimerEvent: {}
+[42.406298] (-) TimerEvent: {}
+[42.506682] (-) TimerEvent: {}
+[42.607079] (-) TimerEvent: {}
+[42.707444] (-) TimerEvent: {}
+[42.807827] (-) TimerEvent: {}
+[42.908277] (-) TimerEvent: {}
+[43.008629] (-) TimerEvent: {}
+[43.109006] (-) TimerEvent: {}
+[43.209384] (-) TimerEvent: {}
+[43.309815] (-) TimerEvent: {}
+[43.410211] (-) TimerEvent: {}
+[43.446102] (sick_scan2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/softwarePLL.cpp.o\x1b[0m\n'}
+[43.510341] (-) TimerEvent: {}
+[43.610818] (-) TimerEvent: {}
+[43.711330] (-) TimerEvent: {}
+[43.811791] (-) TimerEvent: {}
+[43.912286] (-) TimerEvent: {}
+[44.012760] (-) TimerEvent: {}
+[44.113236] (-) TimerEvent: {}
+[44.213717] (-) TimerEvent: {}
+[44.314165] (-) TimerEvent: {}
+[44.414636] (-) TimerEvent: {}
+[44.515122] (-) TimerEvent: {}
+[44.615581] (-) TimerEvent: {}
+[44.716047] (-) TimerEvent: {}
+[44.816544] (-) TimerEvent: {}
+[44.917012] (-) TimerEvent: {}
+[45.017489] (-) TimerEvent: {}
+[45.117956] (-) TimerEvent: {}
+[45.218470] (-) TimerEvent: {}
+[45.318975] (-) TimerEvent: {}
+[45.419437] (-) TimerEvent: {}
+[45.519898] (-) TimerEvent: {}
+[45.620343] (-) TimerEvent: {}
+[45.720813] (-) TimerEvent: {}
+[45.821316] (-) TimerEvent: {}
+[45.921788] (-) TimerEvent: {}
+[46.022263] (-) TimerEvent: {}
+[46.122746] (-) TimerEvent: {}
+[46.223205] (-) TimerEvent: {}
+[46.323658] (-) TimerEvent: {}
+[46.424140] (-) TimerEvent: {}
+[46.524604] (-) TimerEvent: {}
+[46.625076] (-) TimerEvent: {}
+[46.638798] (sick_scan2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/SickThread.cpp.o\x1b[0m\n'}
+[46.725211] (-) TimerEvent: {}
+[46.825703] (-) TimerEvent: {}
+[46.926223] (-) TimerEvent: {}
+[46.961869] (sick_scan2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/Mutex.cpp.o\x1b[0m\n'}
+[47.026393] (-) TimerEvent: {}
+[47.126800] (-) TimerEvent: {}
+[47.227247] (-) TimerEvent: {}
+[47.280240] (sick_scan2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX static library libsick_scan2_lib.a\x1b[0m\n'}
+[47.327356] (-) TimerEvent: {}
+[47.427966] (-) TimerEvent: {}
+[47.528745] (-) TimerEvent: {}
+[47.600047] (sick_scan2) StdoutLine: {'line': b'[ 90%] Built target sick_scan2_lib\n'}
+[47.628963] (-) TimerEvent: {}
+[47.721571] (sick_scan2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sick_generic_caller\x1b[0m\n'}
+[47.729078] (-) TimerEvent: {}
+[47.794205] (sick_scan2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/sick_generic_caller.dir/driver/src/sick_generic_caller.cpp.o\x1b[0m\n'}
+[47.829227] (-) TimerEvent: {}
+[47.929706] (-) TimerEvent: {}
+[48.030186] (-) TimerEvent: {}
+[48.130663] (-) TimerEvent: {}
+[48.231169] (-) TimerEvent: {}
+[48.331659] (-) TimerEvent: {}
+[48.432164] (-) TimerEvent: {}
+[48.532601] (-) TimerEvent: {}
+[48.633022] (-) TimerEvent: {}
+[48.733503] (-) TimerEvent: {}
+[48.833991] (-) TimerEvent: {}
+[48.934491] (-) TimerEvent: {}
+[49.034978] (-) TimerEvent: {}
+[49.135490] (-) TimerEvent: {}
+[49.236049] (-) TimerEvent: {}
+[49.336576] (-) TimerEvent: {}
+[49.437039] (-) TimerEvent: {}
+[49.537497] (-) TimerEvent: {}
+[49.638001] (-) TimerEvent: {}
+[49.738495] (-) TimerEvent: {}
+[49.838979] (-) TimerEvent: {}
+[49.939466] (-) TimerEvent: {}
+[50.039922] (-) TimerEvent: {}
+[50.140349] (-) TimerEvent: {}
+[50.240869] (-) TimerEvent: {}
+[50.341355] (-) TimerEvent: {}
+[50.441815] (-) TimerEvent: {}
+[50.542271] (-) TimerEvent: {}
+[50.642695] (-) TimerEvent: {}
+[50.743200] (-) TimerEvent: {}
+[50.843708] (-) TimerEvent: {}
+[50.944186] (-) TimerEvent: {}
+[51.044629] (-) TimerEvent: {}
+[51.145049] (-) TimerEvent: {}
+[51.245535] (-) TimerEvent: {}
+[51.346031] (-) TimerEvent: {}
+[51.446512] (-) TimerEvent: {}
+[51.547018] (-) TimerEvent: {}
+[51.647479] (-) TimerEvent: {}
+[51.747920] (-) TimerEvent: {}
+[51.848402] (-) TimerEvent: {}
+[51.948885] (-) TimerEvent: {}
+[52.049341] (-) TimerEvent: {}
+[52.149800] (-) TimerEvent: {}
+[52.250283] (-) TimerEvent: {}
+[52.350765] (-) TimerEvent: {}
+[52.451264] (-) TimerEvent: {}
+[52.551776] (-) TimerEvent: {}
+[52.652225] (-) TimerEvent: {}
+[52.752662] (-) TimerEvent: {}
+[52.853059] (-) TimerEvent: {}
+[52.953501] (-) TimerEvent: {}
+[53.053984] (-) TimerEvent: {}
+[53.154410] (-) TimerEvent: {}
+[53.254826] (-) TimerEvent: {}
+[53.355252] (-) TimerEvent: {}
+[53.455780] (-) TimerEvent: {}
+[53.556210] (-) TimerEvent: {}
+[53.656608] (-) TimerEvent: {}
+[53.757050] (-) TimerEvent: {}
+[53.857476] (-) TimerEvent: {}
+[53.957825] (-) TimerEvent: {}
+[54.058223] (-) TimerEvent: {}
+[54.158606] (-) TimerEvent: {}
+[54.259016] (-) TimerEvent: {}
+[54.359443] (-) TimerEvent: {}
+[54.459813] (-) TimerEvent: {}
+[54.560235] (-) TimerEvent: {}
+[54.660647] (-) TimerEvent: {}
+[54.681239] (sick_scan2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sick_generic_caller\x1b[0m\n'}
+[54.760788] (-) TimerEvent: {}
+[54.861138] (-) TimerEvent: {}
+[54.961479] (-) TimerEvent: {}
+[55.062006] (-) TimerEvent: {}
+[55.162721] (-) TimerEvent: {}
+[55.263138] (-) TimerEvent: {}
+[55.363495] (-) TimerEvent: {}
+[55.463934] (-) TimerEvent: {}
+[55.500053] (sick_scan2) StdoutLine: {'line': b'[100%] Built target sick_generic_caller\n'}
+[55.551462] (sick_scan2) CommandEnded: {'returncode': 0}
+[55.564435] (-) TimerEvent: {}
+[55.648635] (sick_scan2) JobProgress: {'identifier': 'sick_scan2', 'progress': 'install'}
+[55.681025] (sick_scan2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wasp_mini/ros2_ws/build/sick_scan2'], 'cwd': '/home/wasp_mini/ros2_ws/build/sick_scan2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1044'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1659'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1087,unix/sutd:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '8d12a216e5fd472e9661c76b8aae7c56'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/home/wasp_mini/ros2_ws/install/main_waspmini:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d49a1dd-895e-4429-994d-0de534377810'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/sick_scan2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/main_waspmini/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy:/opt/ros/noetic:/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/main_waspmini')]), 'shell': False}
+[55.682327] (-) TimerEvent: {}
+[55.702126] (sick_scan2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[55.704602] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/lib/sick_scan2/sick_generic_caller\n'}
+[55.710422] (sick_scan2) StdoutLine: {'line': b'-- Set runtime path of "/home/wasp_mini/ros2_ws/install/sick_scan2/lib/sick_scan2/sick_generic_caller" to ""\n'}
+[55.710895] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/lib/libsick_scan2_lib.a\n'}
+[55.723001] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch\n'}
+[55.723433] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz\n'}
+[55.723938] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/tim_5xx.rviz\n'}
+[55.724875] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/sick_cola.rviz\n'}
+[55.725645] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/sick_ldmrs.rviz\n'}
+[55.726314] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/radar.rviz\n'}
+[55.726936] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/hector.rviz\n'}
+[55.727580] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/rviz/combi.rviz\n'}
+[55.728143] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lrs_4xxx.launch.py\n'}
+[55.728609] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lms_1xxx.launch.py\n'}
+[55.729038] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_ldmrs.launch.py\n'}
+[55.729383] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lms_5xx.launch_old.py\n'}
+[55.729889] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lms_5xx.launch.py\n'}
+[55.730264] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_5xx.launch.pyOLD\n'}
+[55.730711] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/single_rrbot.urdf\n'}
+[55.731326] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_5xx.launch.py\n'}
+[55.731778] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_240.launch.py\n'}
+[55.732228] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_7xxS.launch.py\n'}
+[55.732661] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_tim_7xx.launch.py\n'}
+[55.733055] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_lms_1xx.launch.py\n'}
+[55.733440] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/launch/sick_mrs_1xxx.launch.py\n'}
+[55.733895] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config\n'}
+[55.734282] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_mrs_1xxx.yaml\n'}
+[55.734733] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_lrs_4xxx.yaml\n'}
+[55.735125] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_tim_240.yaml\n'}
+[55.735451] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_lms_1xxx.yaml\n'}
+[55.735721] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_tim_7xx.yaml\n'}
+[55.736096] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_ldmrs_flexres.yaml\n'}
+[55.736554] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_tim_5xx.yaml\n'}
+[55.736883] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_lms_5xx.yaml\n'}
+[55.737217] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_tim_7xxS.yaml\n'}
+[55.737539] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_ldmrs.yaml\n'}
+[55.738193] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/config/sick_lms_1xx.yaml\n'}
+[55.740205] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/ament_index/resource_index/package_run_dependencies/sick_scan2\n'}
+[55.741509] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/ament_index/resource_index/parent_prefix_path/sick_scan2\n'}
+[55.743797] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/environment/ament_prefix_path.sh\n'}
+[55.744829] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/environment/ament_prefix_path.dsv\n'}
+[55.745394] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/environment/path.sh\n'}
+[55.745938] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/environment/path.dsv\n'}
+[55.746491] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/local_setup.bash\n'}
+[55.747115] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/local_setup.sh\n'}
+[55.747479] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/local_setup.zsh\n'}
+[55.747794] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/local_setup.dsv\n'}
+[55.748125] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.dsv\n'}
+[55.749038] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/ament_index/resource_index/packages/sick_scan2\n'}
+[55.749648] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/cmake/sick_scan2Config.cmake\n'}
+[55.750039] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/cmake/sick_scan2Config-version.cmake\n'}
+[55.750499] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/sick_scan2/share/sick_scan2/package.xml\n'}
+[55.753971] (sick_scan2) CommandEnded: {'returncode': 0}
+[55.785264] (-) TimerEvent: {}
+[55.886122] (-) TimerEvent: {}
+[55.900867] (sick_scan2) JobEnded: {'identifier': 'sick_scan2', 'rc': 0}
+[55.902412] (-) EventReactorShutdown: {}

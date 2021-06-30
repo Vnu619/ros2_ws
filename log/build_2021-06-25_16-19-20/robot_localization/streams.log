@@ -1,0 +1,58 @@
+[0.060s] Invoking command in '/home/wasp_mini/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/robot_localization
+[0.657s] -- The C compiler identification is GNU 9.3.0
+[1.037s] -- The CXX compiler identification is GNU 9.3.0
+[1.050s] -- Check for working C compiler: /usr/bin/cc
+[1.161s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.201s] -- Detecting C compiler ABI info
+[1.353s] -- Detecting C compiler ABI info - done
+[1.387s] -- Detecting C compile features
+[1.389s] -- Detecting C compile features - done
+[1.402s] -- Check for working CXX compiler: /usr/bin/c++
+[1.589s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.592s] -- Detecting CXX compiler ABI info
+[1.807s] -- Detecting CXX compiler ABI info - done
+[1.831s] -- Detecting CXX compile features
+[1.832s] -- Detecting CXX compile features - done
+[1.832s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[1.838s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.881s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.882s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.392s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.542s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.707s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.755s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.923s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.039s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.043s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.046s] -- Looking for pthread.h
+[3.163s] -- Looking for pthread.h - found
+[3.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.273s] -- Looking for pthread_create in pthreads
+[3.359s] -- Looking for pthread_create in pthreads - not found
+[3.359s] -- Looking for pthread_create in pthread
+[3.462s] -- Looking for pthread_create in pthread - found
+[3.463s] -- Found Threads: TRUE  
+[3.799s] -- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[3.875s] CMake Error at CMakeLists.txt:20 (find_package):
+[3.875s]   By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this
+[3.876s]   project has asked CMake to find a package configuration file provided by
+[3.876s]   "diagnostic_updater", but CMake did not find one.
+[3.876s] 
+[3.876s]   Could not find a package configuration file provided by
+[3.876s]   "diagnostic_updater" with any of the following names:
+[3.876s] 
+[3.876s]     diagnostic_updaterConfig.cmake
+[3.876s]     diagnostic_updater-config.cmake
+[3.876s] 
+[3.876s]   Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or
+[3.876s]   set "diagnostic_updater_DIR" to a directory containing one of the above
+[3.877s]   files.  If "diagnostic_updater" provides a separate development package or
+[3.877s]   SDK, be sure it has been installed.
+[3.877s] 
+[3.877s] 
+[3.878s] -- Configuring incomplete, errors occurred!
+[3.878s] See also "/home/wasp_mini/ros2_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[3.878s] See also "/home/wasp_mini/ros2_ws/build/robot_localization/CMakeFiles/CMakeError.log".
+[3.889s] Invoked command in '/home/wasp_mini/ros2_ws/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/robot_localization

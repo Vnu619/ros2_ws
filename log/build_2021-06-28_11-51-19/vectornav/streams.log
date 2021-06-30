@@ -1,0 +1,61 @@
+[0.112s] Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav -- -j4 -l4
+[0.517s] [ 84%] Built target vncxx
+[0.590s] [ 92%] Built target vn_sensor_msgs
+[0.761s] [100%] Built target vectornav
+[0.820s] Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav -- -j4 -l4
+[1.315s] Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav
+[1.381s] -- Install configuration: ""
+[1.381s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/lib/vectornav/vectornav
+[1.382s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/lib/vectornav/vn_sensor_msgs
+[1.383s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/ament_index/resource_index/package_run_dependencies/vectornav
+[1.383s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/ament_index/resource_index/parent_prefix_path/vectornav
+[1.384s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/environment/ament_prefix_path.sh
+[1.384s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/environment/ament_prefix_path.dsv
+[1.384s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/environment/path.sh
+[1.385s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/environment/path.dsv
+[1.385s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/local_setup.bash
+[1.385s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/local_setup.sh
+[1.385s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/local_setup.zsh
+[1.385s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/local_setup.dsv
+[1.386s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.dsv
+[1.397s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/ament_index/resource_index/packages/vectornav
+[1.397s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.397s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/cmake/vectornavConfig.cmake
+[1.397s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/cmake/vectornavConfig-version.cmake
+[1.398s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/share/vectornav/package.xml
+[1.398s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/lib/libvncxx.so
+[1.398s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn
+[1.399s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/sensors.h
+[1.400s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/compositedata.h
+[1.400s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/boostpython.h
+[1.400s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/exceptions.h
+[1.400s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/searcher.h
+[1.400s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/thread.h
+[1.401s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/port.h
+[1.401s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/ezasyncdata.h
+[1.401s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/error_detection.h
+[1.401s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/registers.h
+[1.401s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/consts.h
+[1.402s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/packet.h
+[1.402s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/conversions.h
+[1.402s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/dllvalidator.h
+[1.402s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/vntime.h
+[1.402s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/export.h
+[1.402s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/memoryport.h
+[1.403s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/attitude.h
+[1.403s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/types.h
+[1.403s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/matrix.h
+[1.403s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/compiler.h
+[1.403s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/event.h
+[1.403s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/serialport.h
+[1.404s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/packetfinder.h
+[1.404s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/int.h
+[1.404s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/vector.h
+[1.404s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/signal.h
+[1.404s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/nocopy.h
+[1.405s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/criticalsection.h
+[1.405s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/utilities.h
+[1.405s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/position.h
+[1.405s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/mock.h
+[1.405s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav/include/vn/util.h
+[1.446s] Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav

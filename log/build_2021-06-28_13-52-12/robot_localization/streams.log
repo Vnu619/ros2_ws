@@ -1,0 +1,323 @@
+[0.057s] Invoking command in '/home/wasp_mini/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/robot_localization -- -j4 -l4
+[0.267s] [  2%] Built target gtest
+[0.295s] [  3%] Built target robot_localization__cpp
+[0.314s] [  4%] Built target gtest_main
+[0.356s] [ 11%] Built target robot_localization__rosidl_generator_c
+[0.445s] [ 18%] Built target robot_localization__rosidl_typesupport_cpp
+[0.473s] [ 25%] Built target robot_localization__rosidl_typesupport_introspection_cpp
+[0.484s] [ 32%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp
+[0.501s] [ 39%] Built target robot_localization__rosidl_typesupport_c
+[0.562s] [ 46%] Built target robot_localization__rosidl_typesupport_introspection_c
+[0.583s] [ 53%] Built target robot_localization__rosidl_typesupport_fastrtps_c
+[0.634s] [ 53%] Built target robot_localization
+[0.690s] [ 54%] Built target robot_localization__py
+[0.806s] [ 60%] Built target robot_localization__python
+[0.841s] [ 69%] Built target rl_lib
+[0.944s] [ 71%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext
+[0.948s] [ 73%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext
+[0.976s] [ 74%] Built target test_ros_robot_localization_listener_publisher
+[0.998s] [ 75%] Built target robot_localization__rosidl_typesupport_c__pyext
+[1.057s] [ 77%] Built target test_ros_robot_localization_listener
+[1.094s] [ 79%] Built target test_ekf
+[1.098s] [ 80%] Built target test_navsat_conversions
+[1.147s] [ 82%] Built target ukf_node
+[1.178s] [ 84%] Built target test_robot_localization_estimator
+[1.227s] [ 86%] Built target test_ukf
+[1.245s] [ 87%] Built target ekf_node
+[1.246s] [ 89%] Built target test_navsat_transform
+[1.287s] [ 91%] Built target filter_base-test
+[1.347s] [ 93%] Built target navsat_transform_node
+[1.377s] [ 94%] Built target robot_localization_listener_node
+[1.384s] [ 96%] Built target test_ukf_localization_node_interfaces
+[1.424s] [ 98%] Built target test_ekf_localization_node_interfaces
+[1.470s] [100%] Built target test_filter_base_diagnostics_timestamps
+[1.520s] Invoked command in '/home/wasp_mini/ros2_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/robot_localization -- -j4 -l4
+[1.975s] Invoking command in '/home/wasp_mini/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/robot_localization
+[2.002s] -- Install configuration: "RelWithDebInfo"
+[2.003s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/ament_index/resource_index/rosidl_interfaces/robot_localization
+[2.003s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization
+[2.004s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv
+[2.004s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/set_datum.h
+[2.004s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/from_ll.h
+[2.004s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/get_state.h
+[2.004s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail
+[2.005s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__functions.h
+[2.005s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.h
+[2.005s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__struct.h
+[2.005s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.h
+[2.005s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__functions.h
+[2.006s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.h
+[2.006s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__struct.h
+[2.006s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__struct.h
+[2.006s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.h
+[2.007s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.h
+[2.007s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__functions.h
+[2.008s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__functions.c
+[2.008s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__struct.h
+[2.008s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__functions.c
+[2.009s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__functions.c
+[2.009s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__struct.h
+[2.009s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__functions.c
+[2.009s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__functions.h
+[2.010s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.h
+[2.010s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__struct.h
+[2.012s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__functions.h
+[2.020s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__functions.c
+[2.020s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__functions.h
+[2.020s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__functions.c
+[2.021s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/set_pose.h
+[2.021s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/to_ll.h
+[2.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/toggle_filter_processing.h
+[2.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/msg
+[2.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/msg/rosidl_generator_c__visibility_control.h
+[2.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/environment/library_path.sh
+[2.022s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/environment/library_path.dsv
+[2.023s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librobot_localization__rosidl_generator_c.so
+[2.023s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization
+[2.023s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv
+[2.023s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail
+[2.023s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_c.h
+[2.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_c.h
+[2.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_c.h
+[2.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_c.h
+[2.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[2.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[2.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/msg
+[2.024s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_c.so
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_cpp.hpp
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_cpp.hpp
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_cpp.hpp
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[2.025s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_cpp.hpp
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/dds_fastrtps
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/msg
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_cpp.so
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail
+[2.026s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.c
+[2.027s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[2.027s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[2.027s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_c.h
+[2.027s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_c.h
+[2.031s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_c.h
+[2.031s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.c
+[2.033s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.c
+[2.033s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_c.h
+[2.033s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.c
+[2.033s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.c
+[2.033s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.c
+[2.033s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/msg
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_c.so
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_c.so
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/set_pose.hpp
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/toggle_filter_processing.hpp
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail
+[2.034s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__struct.hpp
+[2.035s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__traits.hpp
+[2.035s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__traits.hpp
+[2.035s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__traits.hpp
+[2.035s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__struct.hpp
+[2.035s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__struct.hpp
+[2.035s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__struct.hpp
+[2.036s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__traits.hpp
+[2.036s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__struct.hpp
+[2.036s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__builder.hpp
+[2.036s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__builder.hpp
+[2.037s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__struct.hpp
+[2.037s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__builder.hpp
+[2.037s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__traits.hpp
+[2.038s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__builder.hpp
+[2.038s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__traits.hpp
+[2.038s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__builder.hpp
+[2.038s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__builder.hpp
+[2.038s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/get_state.hpp
+[2.039s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/from_ll.hpp
+[2.039s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/set_datum.hpp
+[2.039s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/to_ll.hpp
+[2.039s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization
+[2.039s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv
+[2.039s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail
+[2.040s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[2.040s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.cpp
+[2.040s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_cpp.hpp
+[2.040s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[2.040s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.cpp
+[2.041s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.cpp
+[2.041s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_cpp.hpp
+[2.041s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.cpp
+[2.041s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_cpp.hpp
+[2.041s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.cpp
+[2.042s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_cpp.hpp
+[2.042s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.cpp
+[2.042s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_cpp.so
+[2.042s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_cpp.so
+[2.042s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/environment/pythonpath.sh
+[2.043s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/environment/pythonpath.dsv
+[2.043s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/__init__.py
+[2.130s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv
+[2.130s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_pose.py
+[2.131s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_datum_s.c
+[2.131s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_to_ll.py
+[2.131s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_datum.py
+[2.131s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_to_ll_s.c
+[2.132s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_toggle_filter_processing.py
+[2.132s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_get_state_s.c
+[2.132s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_pose_s.c
+[2.132s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_get_state.py
+[2.132s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_from_ll_s.c
+[2.133s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/__init__.py
+[2.133s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_from_ll.py
+[2.133s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_toggle_filter_processing_s.c
+[2.133s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.133s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.135s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.136s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librobot_localization__python.so
+[2.137s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/FromLL.idl
+[2.137s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/GetState.idl
+[2.138s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/SetDatum.idl
+[2.138s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/SetPose.idl
+[2.138s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.idl
+[2.139s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/ToLL.idl
+[2.139s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/FromLL.srv
+[2.139s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/FromLL_Request.msg
+[2.140s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/FromLL_Response.msg
+[2.140s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/GetState.srv
+[2.141s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/GetState_Request.msg
+[2.141s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/GetState_Response.msg
+[2.142s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/SetDatum.srv
+[2.147s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/SetDatum_Request.msg
+[2.148s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/SetDatum_Response.msg
+[2.148s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/SetPose.srv
+[2.148s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/SetPose_Request.msg
+[2.150s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/SetPose_Response.msg
+[2.150s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.srv
+[2.150s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Request.msg
+[2.151s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Response.msg
+[2.151s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/ToLL.srv
+[2.151s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/ToLL_Request.msg
+[2.152s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/srv/ToLL_Response.msg
+[2.152s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/filter_base-test
+[2.153s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_filter_base_diagnostics_timestamps
+[2.153s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_ekf
+[2.153s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_ekf_localization_node_interfaces
+[2.154s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_ukf
+[2.154s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_ukf_localization_node_interfaces
+[2.154s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_robot_localization_estimator
+[2.155s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_navsat_conversions
+[2.155s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_navsat_transform
+[2.155s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_ros_robot_localization_listener
+[2.156s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/test_ros_robot_localization_listener_publisher
+[2.163s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test
+[2.163s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_navsat_conversions.cpp
+[2.164s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.yaml
+[2.164s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.sh
+[2.164s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_robot_localization_estimator.cpp
+[2.166s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.yaml
+[2.166s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.sh
+[2.166s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_filter_base.cpp
+[2.166s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.cpp
+[2.167s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test2.bag
+[2.167s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.yaml
+[2.167s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.yaml
+[2.167s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf.cpp
+[2.167s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.yaml
+[2.168s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.launch.py
+[2.168s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_localization_node_bag_pose_tester.cpp
+[2.168s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf.cpp
+[2.168s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.yaml
+[2.168s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test3.bag
+[2.169s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.cpp
+[2.169s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_navsat_transform.cpp
+[2.169s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.launch.py
+[2.169s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.yaml
+[2.170s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener_publisher.cpp
+[2.170s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.cpp
+[2.170s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.launch.py
+[2.170s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.launch.py
+[2.171s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.sh
+[2.171s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.sh
+[2.171s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.launch.py
+[2.172s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.yaml
+[2.172s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.launch.py
+[2.172s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.launch.py
+[2.173s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.sh
+[2.173s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.launch.py
+[2.173s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test1.bag
+[2.174s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.sh
+[2.174s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.launch.py
+[2.174s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.yaml
+[2.175s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.launch.py
+[2.175s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.cpp
+[2.177s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_robot_localization_estimator.launch.py
+[2.184s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_navsat_transform.launch.py
+[2.187s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.yaml
+[2.189s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/navsat_transform_node
+[2.190s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/ekf_node
+[2.190s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/ukf_node
+[2.191s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/robot_localization/robot_localization_listener_node
+[2.192s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/lib/librl_lib.so
+[2.193s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/params
+[2.201s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/params/ukf.yaml
+[2.201s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/params/navsat_transform.yaml
+[2.201s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/params/nav2_multirobot_params_2.yaml
+[2.202s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/params/ekf.yaml
+[2.202s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/params/dual_ekf_navsat_example.yaml
+[2.202s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/params/nav2_multirobot_params_1.yaml
+[2.203s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/params/nav2_params.yaml
+[2.203s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch
+[2.204s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/ukf.launch.py
+[2.204s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/bringup_launch.py
+[2.204s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/spawn_tb3_launch.py
+[2.205s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/navigation_launch.py
+[2.205s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/rviz_launch.py
+[2.218s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/multi_tb3_simulation_launch.py
+[2.218s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/dual_ekf_navsat_example.launch.py
+[2.218s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/localization_launch.py
+[2.219s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/slam_launch.py
+[2.226s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/navsat_transform.launch.py
+[2.226s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/ekf.launch.py
+[2.226s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/launch/tb3_simulation_launch.py
+[2.227s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
+[2.227s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization
+[2.227s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh
+[2.228s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv
+[2.229s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/environment/path.sh
+[2.245s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/environment/path.dsv
+[2.245s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/local_setup.bash
+[2.245s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/local_setup.sh
+[2.245s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/local_setup.zsh
+[2.245s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/local_setup.dsv
+[2.245s] -- Installing: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.dsv
+[2.246s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/ament_index/resource_index/packages/robot_localization
+[2.246s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cExport.cmake
+[2.247s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cExport-relwithdebinfo.cmake
+[2.247s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport.cmake
+[2.247s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[2.248s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport.cmake
+[2.248s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[2.251s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cppExport.cmake
+[2.251s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport.cmake
+[2.252s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[2.254s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport.cmake
+[2.255s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[2.256s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake-extras.cmake
+[2.256s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.257s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[2.257s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_targets-extras.cmake
+[2.258s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.259s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.262s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.262s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake
+[2.263s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake
+[2.264s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/robot_localization/share/robot_localization/package.xml
+[2.280s] Invoked command in '/home/wasp_mini/ros2_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/robot_localization

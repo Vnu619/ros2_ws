@@ -1,0 +1,5 @@
+  File "/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller/main.py", line 97
+    def euler_from_quaternion(A[quaternion_x, quaternion_y, quaternion_z, quaternion_w]):
+                               ^
+SyntaxError: invalid syntax
+

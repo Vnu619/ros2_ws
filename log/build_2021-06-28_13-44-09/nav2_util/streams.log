@@ -1,0 +1,37 @@
+[0.074s] Invoking command in '/home/wasp_mini/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wasp_mini/ros2_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/nav2_util
+[0.113s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.167s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.597s] -- Found nav2_common: 1.0.0 (/home/wasp_mini/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.598s] -- Found nav2_msgs: 1.0.0 (/home/wasp_mini/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.300s] -- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.452s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.456s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.360s] -- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.373s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.458s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[3.459s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[3.576s] -- Found rclcpp_lifecycle: 2.3.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[3.628s] CMake Error at CMakeLists.txt:18 (find_package):
+[3.629s]   By not providing "Findbondcpp.cmake" in CMAKE_MODULE_PATH this project has
+[3.629s]   asked CMake to find a package configuration file provided by "bondcpp", but
+[3.629s]   CMake did not find one.
+[3.629s] 
+[3.629s]   Could not find a package configuration file provided by "bondcpp" with any
+[3.630s]   of the following names:
+[3.630s] 
+[3.630s]     bondcppConfig.cmake
+[3.630s]     bondcpp-config.cmake
+[3.630s] 
+[3.630s]   Add the installation prefix of "bondcpp" to CMAKE_PREFIX_PATH or set
+[3.630s]   "bondcpp_DIR" to a directory containing one of the above files.  If
+[3.630s]   "bondcpp" provides a separate development package or SDK, be sure it has
+[3.630s]   been installed.
+[3.630s] 
+[3.630s] 
+[3.632s] -- Configuring incomplete, errors occurred!
+[3.632s] See also "/home/wasp_mini/ros2_ws/build/nav2_util/CMakeFiles/CMakeOutput.log".
+[3.632s] See also "/home/wasp_mini/ros2_ws/build/nav2_util/CMakeFiles/CMakeError.log".
+[3.644s] Invoked command in '/home/wasp_mini/ros2_ws/build/nav2_util' returned '1': AMENT_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:/home/wasp_mini/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs:/home/wasp_mini/ros2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wasp_mini/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wasp_mini/ros2_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/nav2_util

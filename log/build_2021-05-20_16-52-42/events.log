@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (wasp_mini_controller) JobQueued: {'identifier': 'wasp_mini_controller', 'dependencies': OrderedDict()}
+[0.001753] (wasp_mini_joy) JobQueued: {'identifier': 'wasp_mini_joy', 'dependencies': OrderedDict()}
+[0.001815] (wasp_mini_controller) JobStarted: {'identifier': 'wasp_mini_controller'}
+[0.018493] (wasp_mini_joy) JobStarted: {'identifier': 'wasp_mini_joy'}
+[0.099686] (-) TimerEvent: {}
+[0.200417] (-) TimerEvent: {}
+[0.300797] (-) TimerEvent: {}
+[0.383303] (wasp_mini_joy) JobProgress: {'identifier': 'wasp_mini_joy', 'progress': 'cmake'}
+[0.384392] (wasp_mini_joy) JobProgress: {'identifier': 'wasp_mini_joy', 'progress': 'build'}
+[0.385683] (wasp_mini_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wasp_mini/ros2_ws/build/wasp_mini_joy', '--', '-j4', '-l4'], 'cwd': '/home/wasp_mini/ros2_ws/build/wasp_mini_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1041'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4124'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35264'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1084,unix/sutd:/tmp/.ICE-unix/1084'), ('INVOCATION_ID', '91aa17c046a44dccbca9d195bb85207c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1af9ca89-71ad-4e2b-b015-80cbe222ebe0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/wasp_mini_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy')]), 'shell': False}
+[0.397220] (wasp_mini_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wasp_mini_controller', 'build', '--build-base', '/home/wasp_mini/ros2_ws/build/wasp_mini_controller/build', 'install', '--prefix', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller', '--record', '/home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/wasp_mini/ros2_ws/src/wasp_mini_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_SG:en', 'USER': 'wasp_mini', 'SSH_AGENT_PID': '1041', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/wasp_mini', 'OLDPWD': '/home/wasp_mini', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '766', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4124', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/wasp_mini/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'wasp_mini', 'JOURNAL_STREAM': '8:35264', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wasp_mini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sutd:@/tmp/.ICE-unix/1084,unix/sutd:/tmp/.ICE-unix/1084', 'INVOCATION_ID': '91aa17c046a44dccbca9d195bb85207c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1af9ca89-71ad-4e2b-b015-80cbe222ebe0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wasp_mini/ros2_ws/build/wasp_mini_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/wasp_mini/ros2_ws/install/wasp_mini_joy'}, 'shell': False}
+[0.402014] (-) TimerEvent: {}
+[0.456454] (wasp_mini_joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target joy_pub\x1b[0m\n'}
+[0.502167] (wasp_mini_joy) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_pub.dir/src/joy_pub.cpp.o\x1b[0m\n'}
+[0.502439] (-) TimerEvent: {}
+[0.602814] (-) TimerEvent: {}
+[0.703634] (-) TimerEvent: {}
+[0.755096] (wasp_mini_controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.756127] (wasp_mini_controller) StdoutLine: {'line': b'writing ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/PKG-INFO\n'}
+[0.756898] (wasp_mini_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/dependency_links.txt\n'}
+[0.757278] (wasp_mini_controller) StdoutLine: {'line': b'writing entry points to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/entry_points.txt\n'}
+[0.757574] (wasp_mini_controller) StdoutLine: {'line': b'writing requirements to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/requires.txt\n'}
+[0.757841] (wasp_mini_controller) StdoutLine: {'line': b'writing top-level names to ../../build/wasp_mini_controller/wasp_mini_controller.egg-info/top_level.txt\n'}
+[0.803780] (-) TimerEvent: {}
+[0.811652] (wasp_mini_controller) StdoutLine: {'line': b"reading manifest file '../../build/wasp_mini_controller/wasp_mini_controller.egg-info/SOURCES.txt'\n"}
+[0.813171] (wasp_mini_controller) StdoutLine: {'line': b"writing manifest file '../../build/wasp_mini_controller/wasp_mini_controller.egg-info/SOURCES.txt'\n"}
+[0.813617] (wasp_mini_controller) StdoutLine: {'line': b'running build\n'}
+[0.813833] (wasp_mini_controller) StdoutLine: {'line': b'running build_py\n'}
+[0.814413] (wasp_mini_controller) StdoutLine: {'line': b'running install\n'}
+[0.815892] (wasp_mini_controller) StdoutLine: {'line': b'running install_lib\n'}
+[0.818494] (wasp_mini_controller) StdoutLine: {'line': b'running install_data\n'}
+[0.819351] (wasp_mini_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.821960] (wasp_mini_controller) StdoutLine: {'line': b"removing '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.822506] (wasp_mini_controller) StdoutLine: {'line': b'Copying ../../build/wasp_mini_controller/wasp_mini_controller.egg-info to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages/wasp_mini_controller-0.0.0-py3.8.egg-info\n'}
+[0.823829] (wasp_mini_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[0.852866] (wasp_mini_controller) StdoutLine: {'line': b'Installing actuator_position script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller\n'}
+[0.853253] (wasp_mini_controller) StdoutLine: {'line': b'Installing main_node script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller\n'}
+[0.853575] (wasp_mini_controller) StdoutLine: {'line': b'Installing motor_FL script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller\n'}
+[0.853881] (wasp_mini_controller) StdoutLine: {'line': b'Installing motor_FR script to /home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/wasp_mini_controller\n'}
+[0.854533] (wasp_mini_controller) StdoutLine: {'line': b"writing list of installed files to '/home/wasp_mini/ros2_ws/build/wasp_mini_controller/install.log'\n"}
+[0.888537] (wasp_mini_controller) CommandEnded: {'returncode': 0}
+[0.904578] (-) TimerEvent: {}
+[0.907947] (wasp_mini_controller) JobEnded: {'identifier': 'wasp_mini_controller', 'rc': 0}
+[1.004731] (-) TimerEvent: {}
+[1.105191] (-) TimerEvent: {}
+[1.205636] (-) TimerEvent: {}
+[1.307022] (-) TimerEvent: {}
+[1.407438] (-) TimerEvent: {}
+[1.507875] (-) TimerEvent: {}
+[1.608364] (-) TimerEvent: {}
+[1.708806] (-) TimerEvent: {}
+[1.809254] (-) TimerEvent: {}
+[1.909703] (-) TimerEvent: {}
+[2.010176] (-) TimerEvent: {}
+[2.110638] (-) TimerEvent: {}
+[2.211100] (-) TimerEvent: {}
+[2.311550] (-) TimerEvent: {}
+[2.411991] (-) TimerEvent: {}
+[2.512465] (-) TimerEvent: {}
+[2.612905] (-) TimerEvent: {}
+[2.713390] (-) TimerEvent: {}
+[2.813848] (-) TimerEvent: {}
+[2.914307] (-) TimerEvent: {}
+[3.014779] (-) TimerEvent: {}
+[3.115224] (-) TimerEvent: {}
+[3.215698] (-) TimerEvent: {}
+[3.316237] (-) TimerEvent: {}
+[3.416661] (-) TimerEvent: {}
+[3.517062] (-) TimerEvent: {}
+[3.617462] (-) TimerEvent: {}
+[3.717963] (-) TimerEvent: {}
+[3.818401] (-) TimerEvent: {}
+[3.918841] (-) TimerEvent: {}
+[4.019298] (-) TimerEvent: {}
+[4.119738] (-) TimerEvent: {}
+[4.220209] (-) TimerEvent: {}
+[4.320689] (-) TimerEvent: {}
+[4.421139] (-) TimerEvent: {}
+[4.521615] (-) TimerEvent: {}
+[4.622031] (-) TimerEvent: {}
+[4.722482] (-) TimerEvent: {}
+[4.822929] (-) TimerEvent: {}
+[4.923375] (-) TimerEvent: {}
+[5.023845] (-) TimerEvent: {}
+[5.124289] (-) TimerEvent: {}
+[5.224721] (-) TimerEvent: {}
+[5.325210] (-) TimerEvent: {}
+[5.425619] (-) TimerEvent: {}
+[5.526028] (-) TimerEvent: {}
+[5.626446] (-) TimerEvent: {}
+[5.726847] (-) TimerEvent: {}
+[5.827212] (-) TimerEvent: {}
+[5.927617] (-) TimerEvent: {}
+[6.028052] (-) TimerEvent: {}
+[6.128483] (-) TimerEvent: {}
+[6.228891] (-) TimerEvent: {}
+[6.329298] (-) TimerEvent: {}
+[6.429667] (-) TimerEvent: {}
+[6.530079] (-) TimerEvent: {}
+[6.630651] (-) TimerEvent: {}
+[6.731062] (-) TimerEvent: {}
+[6.831488] (-) TimerEvent: {}
+[6.931888] (-) TimerEvent: {}
+[7.032332] (-) TimerEvent: {}
+[7.132724] (-) TimerEvent: {}
+[7.233139] (-) TimerEvent: {}
+[7.333565] (-) TimerEvent: {}
+[7.433963] (-) TimerEvent: {}
+[7.534389] (-) TimerEvent: {}
+[7.634791] (-) TimerEvent: {}
+[7.735174] (-) TimerEvent: {}
+[7.835615] (-) TimerEvent: {}
+[7.936149] (-) TimerEvent: {}
+[8.036755] (-) TimerEvent: {}
+[8.137576] (-) TimerEvent: {}
+[8.238345] (-) TimerEvent: {}
+[8.338778] (-) TimerEvent: {}
+[8.439178] (-) TimerEvent: {}
+[8.539606] (-) TimerEvent: {}
+[8.639972] (-) TimerEvent: {}
+[8.647543] (wasp_mini_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_pub\x1b[0m\n'}
+[8.740141] (-) TimerEvent: {}
+[8.840611] (-) TimerEvent: {}
+[8.941055] (-) TimerEvent: {}
+[9.041444] (-) TimerEvent: {}
+[9.141892] (-) TimerEvent: {}
+[9.160881] (wasp_mini_joy) StdoutLine: {'line': b'[100%] Built target joy_pub\n'}
+[9.180410] (wasp_mini_joy) CommandEnded: {'returncode': 0}
+[9.213515] (wasp_mini_joy) JobProgress: {'identifier': 'wasp_mini_joy', 'progress': 'install'}
+[9.229061] (wasp_mini_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wasp_mini/ros2_ws/build/wasp_mini_joy'], 'cwd': '/home/wasp_mini/ros2_ws/build/wasp_mini_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1041'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4124'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:35264'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1084,unix/sutd:/tmp/.ICE-unix/1084'), ('INVOCATION_ID', '91aa17c046a44dccbca9d195bb85207c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1af9ca89-71ad-4e2b-b015-80cbe222ebe0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/wasp_mini_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy')]), 'shell': False}
+[9.242110] (-) TimerEvent: {}
+[9.273987] (wasp_mini_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.274481] (wasp_mini_joy) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/wasp_mini_joy/joy_pub\n'}
+[9.277599] (wasp_mini_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/wasp_mini/ros2_ws/install/wasp_mini_joy/lib/wasp_mini_joy/joy_pub" to ""\n'}
+[9.278176] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/package_run_dependencies/wasp_mini_joy\n'}
+[9.278554] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/parent_prefix_path/wasp_mini_joy\n'}
+[9.278908] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.sh\n'}
+[9.279374] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/ament_prefix_path.dsv\n'}
+[9.279699] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.sh\n'}
+[9.279888] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/environment/path.dsv\n'}
+[9.280003] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.bash\n'}
+[9.280246] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.sh\n'}
+[9.280529] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.zsh\n'}
+[9.280793] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/local_setup.dsv\n'}
+[9.281104] (wasp_mini_joy) StdoutLine: {'line': b'-- Installing: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.dsv\n'}
+[9.281301] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/ament_index/resource_index/packages/wasp_mini_joy\n'}
+[9.281522] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig.cmake\n'}
+[9.281698] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/cmake/wasp_mini_joyConfig-version.cmake\n'}
+[9.281857] (wasp_mini_joy) StdoutLine: {'line': b'-- Up-to-date: /home/wasp_mini/ros2_ws/install/wasp_mini_joy/share/wasp_mini_joy/package.xml\n'}
+[9.283836] (wasp_mini_joy) CommandEnded: {'returncode': 0}
+[9.339013] (wasp_mini_joy) JobEnded: {'identifier': 'wasp_mini_joy', 'rc': 0}
+[9.340676] (-) EventReactorShutdown: {}

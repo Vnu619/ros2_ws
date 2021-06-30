@@ -1,0 +1,789 @@
+[0.000000] (-) TimerEvent: {}
+[0.000905] (-) JobUnselected: {'identifier': 'wasp_mini_controller'}
+[0.002135] (-) JobUnselected: {'identifier': 'wasp_mini_joy'}
+[0.002574] (main_waspmini) JobQueued: {'identifier': 'main_waspmini', 'dependencies': OrderedDict()}
+[0.002667] (main_waspmini) JobStarted: {'identifier': 'main_waspmini'}
+[0.019907] (main_waspmini) JobProgress: {'identifier': 'main_waspmini', 'progress': 'cmake'}
+[0.021143] (main_waspmini) Command: {'cmd': ['/usr/bin/cmake', '/home/wasp_mini/ros2_ws/src/main_waspmini', '-DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini'], 'cwd': '/home/wasp_mini/ros2_ws/build/main_waspmini', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'wasp_mini'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wasp_mini'), ('OLDPWD', '/home/wasp_mini/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '769'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2166'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wasp_mini'), ('JOURNAL_STREAM', '8:37901'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wasp_mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/wasp_mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sutd:@/tmp/.ICE-unix/1079,unix/sutd:/tmp/.ICE-unix/1079'), ('INVOCATION_ID', '9ae25724d7ad4e028e89a7ce00c4c8b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:400d80f2-c997-410e-81e3-10b6c5d92750'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wasp_mini/ros2_ws/build/main_waspmini'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/wasp_mini/ros2_ws/install/wasp_mini_joy:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy')]), 'shell': False}
+[0.050069] (main_waspmini) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.085799] (main_waspmini) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099240] (-) TimerEvent: {}
+[0.199676] (-) TimerEvent: {}
+[0.300068] (-) TimerEvent: {}
+[0.398714] (main_waspmini) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.400151] (-) TimerEvent: {}
+[0.454582] (main_waspmini) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.460444] (main_waspmini) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500281] (-) TimerEvent: {}
+[0.600751] (-) TimerEvent: {}
+[0.657387] (main_waspmini) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700889] (-) TimerEvent: {}
+[0.739805] (main_waspmini) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.742262] (main_waspmini) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801017] (-) TimerEvent: {}
+[0.901482] (-) TimerEvent: {}
+[0.981849] (main_waspmini) StdoutLine: {'line': b'-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.001641] (-) TimerEvent: {}
+[1.006342] (main_waspmini) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.101770] (-) TimerEvent: {}
+[1.202264] (-) TimerEvent: {}
+[1.290342] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.290684] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.290807] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.290911] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.291011] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.291108] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.291206] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.291302] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.291400] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.291498] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.291594] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.291717] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.291848] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.291955] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.292109] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.294564] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.294789] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.294903] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.295008] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.295108] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.295371] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.295478] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.295575] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.295674] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.295771] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.295866] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.295963] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.296059] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.296181] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.296278] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.296373] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.296467] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.296572] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.296808] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.296910] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.297007] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.297112] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.297209] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.297304] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.297409] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.297516] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.297629] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.297738] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.297835] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.297931] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.298026] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.298121] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.298217] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.298310] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.298404] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.298497] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.298590] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.298684] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.298869] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.299061] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.299162] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.299258] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.299353] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.299448] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.299544] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.299638] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.299734] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.299829] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.299925] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.300021] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.300138] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.300238] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.300332] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.300428] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.300521] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.300625] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.300719] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.300814] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.300910] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.301005] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.302324] (-) TimerEvent: {}
+[1.306816] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.306983] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.307096] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.307200] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.307300] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.307397] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.307494] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.307591] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.307690] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.307786] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.307882] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.307977] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.308072] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.308204] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.308311] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.310679] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.310959] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.311152] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.311383] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.311552] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.311905] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.312062] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.312198] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.312305] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.312404] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.312502] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.312597] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.312694] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.312790] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.312886] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.312981] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.313078] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.313173] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.313348] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.313458] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.313576] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.313838] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.313941] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.314042] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.314138] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.314234] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.314330] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.314425] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.314521] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.314617] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.314712] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.314809] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.314904] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.314999] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.315093] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.315187] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.315282] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.315378] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.315484] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.315583] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.315716] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.315995] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.316241] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.316360] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.316455] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.316552] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.316659] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.316755] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.316850] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.316945] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.317039] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.317134] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.317228] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.317323] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.317418] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.317511] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.317606] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.317702] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.317797] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.317893] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.318471] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.318643] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.318752] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.318852] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.318947] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.319041] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.319135] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.319227] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.319320] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.319413] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.319520] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.319616] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.319709] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.319802] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.319894] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.328443] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.328761] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.328996] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.329229] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.329448] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.329647] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.329938] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.330140] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.330391] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.330557] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.330777] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.330960] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.331146] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.331366] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.331531] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.333923] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.334098] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.334209] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.334311] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.334409] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.334514] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.335009] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.335124] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.335227] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.335326] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.335422] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.335516] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.335610] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.335702] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.335793] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.335886] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.335980] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.336073] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.336192] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.336288] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.336768] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.336903] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.337010] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.337123] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.337224] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.337321] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.337418] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.337515] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.337611] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.337706] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.337800] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.337896] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.337991] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.338085] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.338179] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.338274] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.338370] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.338466] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.338570] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.338706] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.338922] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.339134] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.339229] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.339323] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.339419] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.339512] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.339608] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.339703] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.339798] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.339891] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.339984] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.340077] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.340210] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.340307] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.340454] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.340550] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.340643] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.340737] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.340830] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.340923] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.341400] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.341558] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.341669] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.341773] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.341872] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.341968] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.342097] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.342258] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.342395] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.342507] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.342604] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.342700] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.342796] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.342890] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.342983] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.351064] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.351268] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.351385] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.351488] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.351599] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.351695] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.351792] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.351886] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.351982] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.352077] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.352207] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.352304] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.352398] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.352493] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.352586] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.354774] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.354993] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.355252] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.355454] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.355686] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.355891] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.356214] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.356336] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.356440] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.356538] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.356634] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.356729] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.356824] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.356917] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.357011] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.357107] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.357203] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.357298] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.357405] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.357655] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.357774] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.357872] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.357968] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.358065] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.358161] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.358257] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.358351] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.358483] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.358582] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.358678] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.358773] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.358877] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.358971] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.359066] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.359161] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.359256] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.359350] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.359444] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.359539] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.359633] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.359744] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.359864] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.360320] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.360445] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.360549] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.360646] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.360744] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.360839] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.360935] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.361029] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.361122] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.361216] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.361309] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.361403] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.361496] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.361589] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.361681] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.361773] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.361866] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.361961] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.362460] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.362615] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.362727] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.362829] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.362927] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.363023] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.363119] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.363213] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.363309] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.363415] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.363517] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.363613] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.363708] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.363802] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.363896] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.370767] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.370937] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.371048] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.371151] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.371248] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.371352] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.371449] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.371543] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.371637] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.371742] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.371838] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.371933] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.372027] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.372144] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.372243] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.374342] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.374498] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.374609] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.374711] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.374808] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.374904] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.374999] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.375092] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.375188] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.375283] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.375383] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.375514] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.375611] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.375706] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.375801] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.376312] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.376447] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.376548] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.376645] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.376739] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.376834] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.376927] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.377020] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.377128] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.377223] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.377319] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.377414] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.377509] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.377604] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.377697] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.378559] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.378767] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.378866] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.378962] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.379058] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.379152] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.379247] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.379340] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.379434] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.379529] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.379621] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.379714] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.379807] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.379900] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.379994] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.385549] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.385679] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.385780] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.385876] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.385970] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.386063] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.386166] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.386417] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.386519] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.386616] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.386713] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.386808] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.386904] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.386999] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.387094] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.387188] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.387282] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.387376] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.387481] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.387574] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.387674] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.387770] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.387864] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.387967] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.388062] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.388193] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.388291] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.388385] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.388480] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.388574] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.394090] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.394226] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.394327] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.394424] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.394519] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.394613] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.394854] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.394966] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.395065] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.395171] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.395267] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.395361] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.395456] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.395550] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.395643] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.395736] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.395830] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.395924] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.396017] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.396271] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.396377] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.396473] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.396568] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.396663] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.396757] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.396851] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.396943] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.397036] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.397129] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.397231] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.397324] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.397418] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.397512] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.397607] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.397702] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.397804] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.397938] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.398099] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.398225] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.398322] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.398416] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.398512] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.398607] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.398700] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.398794] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.402398] (-) TimerEvent: {}
+[1.403410] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.403568] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.403671] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.403768] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.403865] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.403960] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.404068] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.404314] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.404416] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.404539] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.404675] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.404774] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.404871] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.404965] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.405060] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.405153] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.405247] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.405342] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.405436] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.405545] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.405811] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.405908] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.406002] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.406098] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.406199] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.406293] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.406386] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.406479] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.406572] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.406666] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.406760] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.406856] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.406950] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.407044] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.407139] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.407231] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.407325] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.407417] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.407517] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.407611] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.407706] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.407801] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.407896] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.407991] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.408101] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.414002] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.414199] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.414310] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.414412] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.414510] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.414617] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.414742] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.415186] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.415312] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.415417] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.415518] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.415615] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.415711] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.415806] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.415900] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.415994] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.416107] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.416221] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.416511] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.416717] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.416821] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.416917] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.417011] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.417105] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.417199] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.417293] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.417387] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.417481] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.417576] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.417670] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.417764] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.417859] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.417953] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.418047] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.418141] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.418233] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.418327] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.418422] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.418516] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.418611] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.418706] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.418800] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.418895] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.418987] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.419080] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.425057] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.425234] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.425369] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.425551] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.425681] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.425807] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.426109] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.426215] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.426313] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.426408] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.426503] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.426597] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.426693] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.426787] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.426881] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.426974] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.427078] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.427172] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.427272] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.427585] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.427698] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.427792] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.427886] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.427980] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.428073] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.428236] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.428395] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.428549] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.428648] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.428745] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.428842] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.428993] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.429159] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.429319] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.429473] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.429627] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.429806] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.429969] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.430143] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.430304] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.430407] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.430527] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.430679] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.430778] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.430873] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.436881] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.437022] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.437119] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.437215] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.437310] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.437404] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.437658] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.437882] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.437991] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.438087] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.438183] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.438278] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.438382] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.438477] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.438573] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.438667] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.438764] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.438858] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.438952] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.439056] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.439416] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.439512] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.439621] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.439716] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.439810] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.439906] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.440000] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.440108] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.440210] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.440303] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.440396] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.440490] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.440584] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.440686] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.440782] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.440878] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.440972] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.441066] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.441160] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.441253] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.441346] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.441439] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.441533] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.441627] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.441721] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.452075] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.452514] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.452628] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.452730] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.452829] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.452952] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.453367] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.453479] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.453593] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.453693] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.453789] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.453884] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.453978] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.454071] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.454164] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.454256] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.454350] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.454452] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.454879] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.454994] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.455099] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.455198] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.455294] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.455390] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.455484] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.455577] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.455670] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.455764] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.455857] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.455950] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.456044] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.456165] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.456263] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.456357] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.456450] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.456552] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.456645] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.456739] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.456833] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.456927] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.457021] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.457114] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.457208] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.457302] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.457396] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.465756] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.465946] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.466055] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.466156] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.466266] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.466372] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.466498] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.466945] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.467071] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.467175] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.467276] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.467372] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.467468] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.467561] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.467654] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.467746] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.467840] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.467935] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.468343] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.468448] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.468544] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.468639] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.468734] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.468829] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.468922] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.469016] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.469111] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.469206] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.469301] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.469395] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.469491] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):\n'}
+[1.469588] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.469686] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION" is not allowed.\n'}
+[1.469780] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.469875] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.469974] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.470069] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.470187] (main_waspmini) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):\n'}
+[1.470282] (main_waspmini) StderrLine: {'line': b'  INTERFACE_LIBRARY targets may only have whitelisted properties.  The\n'}
+[1.470376] (main_waspmini) StderrLine: {'line': b'  property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not\n'}
+[1.470470] (main_waspmini) StderrLine: {'line': b'  allowed.\n'}
+[1.470564] (main_waspmini) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.470657] (main_waspmini) StderrLine: {'line': b'  CMakeLists.txt:57 (ament_export_libraries)\n'}
+[1.470750] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.470844] (main_waspmini) StderrLine: {'line': b'\n'}
+[1.502538] (-) TimerEvent: {}
+[1.602912] (-) TimerEvent: {}
+[1.615814] (main_waspmini) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.616054] (main_waspmini) StdoutLine: {'line': b'See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeOutput.log".\n'}
+[1.616209] (main_waspmini) StdoutLine: {'line': b'See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeError.log".\n'}
+[1.625902] (main_waspmini) CommandEnded: {'returncode': 1}
+[1.663738] (main_waspmini) JobEnded: {'identifier': 'main_waspmini', 'rc': 1}
+[1.674651] (-) EventReactorShutdown: {}

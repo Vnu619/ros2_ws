@@ -1,0 +1,21 @@
+[0.036s] Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini
+[0.062s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.097s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.411s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.774s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.777s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.013s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[1.014s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.014s]   ament_target_dependencies() the passed package name 'sensor_msgs' was not
+[1.014s]   found before
+[1.015s] Call Stack (most recent call first):
+[1.015s]   CMakeLists.txt:27 (ament_target_dependencies)
+[1.015s] 
+[1.015s] 
+[1.016s] -- Configuring incomplete, errors occurred!
+[1.016s] See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeOutput.log".
+[1.016s] See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeError.log".
+[1.026s] Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini

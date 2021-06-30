@@ -1,0 +1,765 @@
+[0.020s] Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini
+[0.048s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.083s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.396s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.458s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.737s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.740s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.979s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[1.004s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.288s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.288s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.288s]   property "IMPORTED_LOCATION" is not allowed.
+[1.288s] Call Stack (most recent call first):
+[1.288s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.288s] 
+[1.289s] 
+[1.289s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.289s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.289s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.289s]   allowed.
+[1.289s] Call Stack (most recent call first):
+[1.289s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.289s] 
+[1.290s] 
+[1.292s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.292s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.292s]   property "IMPORTED_LOCATION" is not allowed.
+[1.292s] Call Stack (most recent call first):
+[1.293s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.293s] 
+[1.293s] 
+[1.293s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.293s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.293s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.293s]   allowed.
+[1.293s] Call Stack (most recent call first):
+[1.293s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.294s] 
+[1.294s] 
+[1.294s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.294s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.294s]   property "IMPORTED_LOCATION" is not allowed.
+[1.294s] Call Stack (most recent call first):
+[1.294s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.294s] 
+[1.294s] 
+[1.295s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.295s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.295s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.295s]   allowed.
+[1.295s] Call Stack (most recent call first):
+[1.295s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.295s] 
+[1.295s] 
+[1.295s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.296s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.296s]   property "IMPORTED_LOCATION" is not allowed.
+[1.296s] Call Stack (most recent call first):
+[1.296s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.296s] 
+[1.296s] 
+[1.296s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.296s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.296s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.297s]   allowed.
+[1.297s] Call Stack (most recent call first):
+[1.297s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.297s] 
+[1.297s] 
+[1.297s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.297s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.297s]   property "IMPORTED_LOCATION" is not allowed.
+[1.297s] Call Stack (most recent call first):
+[1.297s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.298s] 
+[1.298s] 
+[1.298s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.298s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.298s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.298s]   allowed.
+[1.298s] Call Stack (most recent call first):
+[1.298s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.298s] 
+[1.298s] 
+[1.304s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.304s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.304s]   property "IMPORTED_LOCATION" is not allowed.
+[1.305s] Call Stack (most recent call first):
+[1.305s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.305s] 
+[1.305s] 
+[1.305s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.305s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.305s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.305s]   allowed.
+[1.305s] Call Stack (most recent call first):
+[1.305s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.306s] 
+[1.306s] 
+[1.308s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.308s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.309s]   property "IMPORTED_LOCATION" is not allowed.
+[1.309s] Call Stack (most recent call first):
+[1.309s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.309s] 
+[1.309s] 
+[1.310s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.310s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.310s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.310s]   allowed.
+[1.310s] Call Stack (most recent call first):
+[1.310s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.310s] 
+[1.310s] 
+[1.310s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.310s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.311s]   property "IMPORTED_LOCATION" is not allowed.
+[1.311s] Call Stack (most recent call first):
+[1.311s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.311s] 
+[1.311s] 
+[1.311s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.311s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.312s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.312s]   allowed.
+[1.312s] Call Stack (most recent call first):
+[1.312s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.312s] 
+[1.312s] 
+[1.312s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.312s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.312s]   property "IMPORTED_LOCATION" is not allowed.
+[1.312s] Call Stack (most recent call first):
+[1.312s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.313s] 
+[1.313s] 
+[1.313s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.313s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.313s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.313s]   allowed.
+[1.313s] Call Stack (most recent call first):
+[1.314s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.314s] 
+[1.314s] 
+[1.314s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.314s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.314s]   property "IMPORTED_LOCATION" is not allowed.
+[1.314s] Call Stack (most recent call first):
+[1.314s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.314s] 
+[1.315s] 
+[1.315s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.315s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.315s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.315s]   allowed.
+[1.315s] Call Stack (most recent call first):
+[1.315s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.315s] 
+[1.315s] 
+[1.316s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.316s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.316s]   property "IMPORTED_LOCATION" is not allowed.
+[1.316s] Call Stack (most recent call first):
+[1.316s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.316s] 
+[1.317s] 
+[1.317s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.317s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.317s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.317s]   allowed.
+[1.317s] Call Stack (most recent call first):
+[1.317s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.317s] 
+[1.317s] 
+[1.326s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.326s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.326s]   property "IMPORTED_LOCATION" is not allowed.
+[1.327s] Call Stack (most recent call first):
+[1.327s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.327s] 
+[1.327s] 
+[1.328s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.328s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.328s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.328s]   allowed.
+[1.328s] Call Stack (most recent call first):
+[1.329s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.329s] 
+[1.329s] 
+[1.331s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.331s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.332s]   property "IMPORTED_LOCATION" is not allowed.
+[1.332s] Call Stack (most recent call first):
+[1.332s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.332s] 
+[1.332s] 
+[1.333s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.333s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.333s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.333s]   allowed.
+[1.333s] Call Stack (most recent call first):
+[1.333s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.333s] 
+[1.333s] 
+[1.333s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.333s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.333s]   property "IMPORTED_LOCATION" is not allowed.
+[1.334s] Call Stack (most recent call first):
+[1.334s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.334s] 
+[1.334s] 
+[1.334s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.335s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.335s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.335s]   allowed.
+[1.335s] Call Stack (most recent call first):
+[1.335s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.335s] 
+[1.335s] 
+[1.335s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.335s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.335s]   property "IMPORTED_LOCATION" is not allowed.
+[1.335s] Call Stack (most recent call first):
+[1.336s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.336s] 
+[1.336s] 
+[1.336s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.336s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.336s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.336s]   allowed.
+[1.337s] Call Stack (most recent call first):
+[1.337s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.337s] 
+[1.337s] 
+[1.337s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.337s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.337s]   property "IMPORTED_LOCATION" is not allowed.
+[1.337s] Call Stack (most recent call first):
+[1.337s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.337s] 
+[1.337s] 
+[1.338s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.338s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.338s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.338s]   allowed.
+[1.338s] Call Stack (most recent call first):
+[1.338s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.338s] 
+[1.338s] 
+[1.339s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.339s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.339s]   property "IMPORTED_LOCATION" is not allowed.
+[1.339s] Call Stack (most recent call first):
+[1.339s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.339s] 
+[1.340s] 
+[1.340s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.340s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.340s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.340s]   allowed.
+[1.340s] Call Stack (most recent call first):
+[1.340s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.340s] 
+[1.340s] 
+[1.349s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.349s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.349s]   property "IMPORTED_LOCATION" is not allowed.
+[1.349s] Call Stack (most recent call first):
+[1.349s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.349s] 
+[1.349s] 
+[1.349s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.349s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.349s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.350s]   allowed.
+[1.350s] Call Stack (most recent call first):
+[1.350s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.350s] 
+[1.350s] 
+[1.352s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.353s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.353s]   property "IMPORTED_LOCATION" is not allowed.
+[1.353s] Call Stack (most recent call first):
+[1.353s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.353s] 
+[1.354s] 
+[1.354s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.354s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.354s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.354s]   allowed.
+[1.354s] Call Stack (most recent call first):
+[1.354s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.354s] 
+[1.354s] 
+[1.354s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.355s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.355s]   property "IMPORTED_LOCATION" is not allowed.
+[1.355s] Call Stack (most recent call first):
+[1.355s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.355s] 
+[1.355s] 
+[1.355s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.355s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.356s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.356s]   allowed.
+[1.356s] Call Stack (most recent call first):
+[1.356s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.356s] 
+[1.356s] 
+[1.356s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.356s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.356s]   property "IMPORTED_LOCATION" is not allowed.
+[1.356s] Call Stack (most recent call first):
+[1.357s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.357s] 
+[1.357s] 
+[1.357s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.357s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.357s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.357s]   allowed.
+[1.358s] Call Stack (most recent call first):
+[1.358s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.358s] 
+[1.358s] 
+[1.358s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.358s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.358s]   property "IMPORTED_LOCATION" is not allowed.
+[1.358s] Call Stack (most recent call first):
+[1.358s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.359s] 
+[1.359s] 
+[1.359s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.359s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.359s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.359s]   allowed.
+[1.359s] Call Stack (most recent call first):
+[1.359s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.359s] 
+[1.359s] 
+[1.360s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.360s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.360s]   property "IMPORTED_LOCATION" is not allowed.
+[1.360s] Call Stack (most recent call first):
+[1.360s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.360s] 
+[1.360s] 
+[1.361s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.361s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.361s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.361s]   allowed.
+[1.361s] Call Stack (most recent call first):
+[1.361s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.361s] 
+[1.361s] 
+[1.368s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.368s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.368s]   property "IMPORTED_LOCATION" is not allowed.
+[1.369s] Call Stack (most recent call first):
+[1.369s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.369s] 
+[1.369s] 
+[1.369s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.369s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.369s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.369s]   allowed.
+[1.369s] Call Stack (most recent call first):
+[1.369s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.370s] 
+[1.370s] 
+[1.372s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.372s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.372s]   property "IMPORTED_LOCATION" is not allowed.
+[1.372s] Call Stack (most recent call first):
+[1.372s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.372s] 
+[1.372s] 
+[1.372s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.373s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.373s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.373s]   allowed.
+[1.373s] Call Stack (most recent call first):
+[1.373s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.373s] 
+[1.373s] 
+[1.374s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.374s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.374s]   property "IMPORTED_LOCATION" is not allowed.
+[1.374s] Call Stack (most recent call first):
+[1.374s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.374s] 
+[1.374s] 
+[1.374s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.375s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.375s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.375s]   allowed.
+[1.375s] Call Stack (most recent call first):
+[1.375s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.375s] 
+[1.375s] 
+[1.376s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.376s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.376s]   property "IMPORTED_LOCATION" is not allowed.
+[1.376s] Call Stack (most recent call first):
+[1.376s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.377s] 
+[1.377s] 
+[1.377s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.377s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.377s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.377s]   allowed.
+[1.377s] Call Stack (most recent call first):
+[1.377s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.377s] 
+[1.377s] 
+[1.383s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.383s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.383s]   property "IMPORTED_LOCATION" is not allowed.
+[1.383s] Call Stack (most recent call first):
+[1.383s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.383s] 
+[1.384s] 
+[1.384s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.384s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.384s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.384s]   allowed.
+[1.384s] Call Stack (most recent call first):
+[1.384s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.384s] 
+[1.384s] 
+[1.385s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.385s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.385s]   property "IMPORTED_LOCATION" is not allowed.
+[1.385s] Call Stack (most recent call first):
+[1.385s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.385s] 
+[1.385s] 
+[1.385s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.385s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.385s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.386s]   allowed.
+[1.386s] Call Stack (most recent call first):
+[1.386s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.386s] 
+[1.386s] 
+[1.392s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.392s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.392s]   property "IMPORTED_LOCATION" is not allowed.
+[1.392s] Call Stack (most recent call first):
+[1.392s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.392s] 
+[1.392s] 
+[1.392s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.392s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.393s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.393s]   allowed.
+[1.393s] Call Stack (most recent call first):
+[1.393s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.393s] 
+[1.393s] 
+[1.393s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.393s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.393s]   property "IMPORTED_LOCATION" is not allowed.
+[1.394s] Call Stack (most recent call first):
+[1.394s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.394s] 
+[1.394s] 
+[1.394s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.394s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.394s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.394s]   allowed.
+[1.394s] Call Stack (most recent call first):
+[1.394s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.395s] 
+[1.395s] 
+[1.395s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.395s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.395s]   property "IMPORTED_LOCATION" is not allowed.
+[1.395s] Call Stack (most recent call first):
+[1.395s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.395s] 
+[1.395s] 
+[1.396s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.396s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.396s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.396s]   allowed.
+[1.396s] Call Stack (most recent call first):
+[1.396s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.396s] 
+[1.396s] 
+[1.401s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.401s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.401s]   property "IMPORTED_LOCATION" is not allowed.
+[1.401s] Call Stack (most recent call first):
+[1.401s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.401s] 
+[1.402s] 
+[1.402s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.402s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.402s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.402s]   allowed.
+[1.402s] Call Stack (most recent call first):
+[1.402s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.402s] 
+[1.402s] 
+[1.403s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.403s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.403s]   property "IMPORTED_LOCATION" is not allowed.
+[1.403s] Call Stack (most recent call first):
+[1.403s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.403s] 
+[1.403s] 
+[1.403s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.403s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.404s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.404s]   allowed.
+[1.404s] Call Stack (most recent call first):
+[1.404s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.404s] 
+[1.404s] 
+[1.404s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.404s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.404s]   property "IMPORTED_LOCATION" is not allowed.
+[1.404s] Call Stack (most recent call first):
+[1.405s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.405s] 
+[1.405s] 
+[1.405s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.405s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.405s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.405s]   allowed.
+[1.405s] Call Stack (most recent call first):
+[1.405s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.405s] 
+[1.405s] 
+[1.411s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.412s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.412s]   property "IMPORTED_LOCATION" is not allowed.
+[1.412s] Call Stack (most recent call first):
+[1.412s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.412s] 
+[1.412s] 
+[1.413s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.413s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.413s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.413s]   allowed.
+[1.413s] Call Stack (most recent call first):
+[1.413s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.413s] 
+[1.413s] 
+[1.413s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.413s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.414s]   property "IMPORTED_LOCATION" is not allowed.
+[1.414s] Call Stack (most recent call first):
+[1.414s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.414s] 
+[1.414s] 
+[1.414s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.414s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.415s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.415s]   allowed.
+[1.415s] Call Stack (most recent call first):
+[1.415s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.415s] 
+[1.415s] 
+[1.415s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.415s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.415s]   property "IMPORTED_LOCATION" is not allowed.
+[1.415s] Call Stack (most recent call first):
+[1.416s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.416s] 
+[1.416s] 
+[1.416s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.416s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.416s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.416s]   allowed.
+[1.416s] Call Stack (most recent call first):
+[1.416s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.416s] 
+[1.416s] 
+[1.423s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.423s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.423s]   property "IMPORTED_LOCATION" is not allowed.
+[1.423s] Call Stack (most recent call first):
+[1.423s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.423s] 
+[1.423s] 
+[1.424s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.424s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.424s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.424s]   allowed.
+[1.424s] Call Stack (most recent call first):
+[1.424s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.424s] 
+[1.424s] 
+[1.424s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.424s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.425s]   property "IMPORTED_LOCATION" is not allowed.
+[1.425s] Call Stack (most recent call first):
+[1.425s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.425s] 
+[1.425s] 
+[1.425s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.425s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.426s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.426s]   allowed.
+[1.426s] Call Stack (most recent call first):
+[1.426s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.426s] 
+[1.426s] 
+[1.426s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.426s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.427s]   property "IMPORTED_LOCATION" is not allowed.
+[1.427s] Call Stack (most recent call first):
+[1.427s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.427s] 
+[1.427s] 
+[1.427s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.428s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.428s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.428s]   allowed.
+[1.428s] Call Stack (most recent call first):
+[1.428s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.428s] 
+[1.428s] 
+[1.434s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.434s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.435s]   property "IMPORTED_LOCATION" is not allowed.
+[1.435s] Call Stack (most recent call first):
+[1.435s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.435s] 
+[1.435s] 
+[1.435s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.435s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.435s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.436s]   allowed.
+[1.436s] Call Stack (most recent call first):
+[1.436s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.436s] 
+[1.436s] 
+[1.436s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.436s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.436s]   property "IMPORTED_LOCATION" is not allowed.
+[1.436s] Call Stack (most recent call first):
+[1.437s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.437s] 
+[1.437s] 
+[1.437s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.437s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.437s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.437s]   allowed.
+[1.437s] Call Stack (most recent call first):
+[1.437s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.438s] 
+[1.438s] 
+[1.438s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.438s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.438s]   property "IMPORTED_LOCATION" is not allowed.
+[1.438s] Call Stack (most recent call first):
+[1.438s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.438s] 
+[1.438s] 
+[1.438s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.439s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.439s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.439s]   allowed.
+[1.439s] Call Stack (most recent call first):
+[1.439s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.439s] 
+[1.439s] 
+[1.450s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.450s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.450s]   property "IMPORTED_LOCATION" is not allowed.
+[1.450s] Call Stack (most recent call first):
+[1.450s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.451s] 
+[1.451s] 
+[1.451s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.451s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.451s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.451s]   allowed.
+[1.451s] Call Stack (most recent call first):
+[1.451s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.451s] 
+[1.452s] 
+[1.452s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.452s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.452s]   property "IMPORTED_LOCATION" is not allowed.
+[1.452s] Call Stack (most recent call first):
+[1.452s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.452s] 
+[1.453s] 
+[1.453s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.453s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.453s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.453s]   allowed.
+[1.453s] Call Stack (most recent call first):
+[1.453s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.453s] 
+[1.453s] 
+[1.453s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.454s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.454s]   property "IMPORTED_LOCATION" is not allowed.
+[1.454s] Call Stack (most recent call first):
+[1.454s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.454s] 
+[1.454s] 
+[1.454s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.454s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.454s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.454s]   allowed.
+[1.454s] Call Stack (most recent call first):
+[1.455s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.455s] 
+[1.455s] 
+[1.463s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.463s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.463s]   property "IMPORTED_LOCATION" is not allowed.
+[1.464s] Call Stack (most recent call first):
+[1.464s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.464s] 
+[1.464s] 
+[1.464s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.464s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.465s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.465s]   allowed.
+[1.465s] Call Stack (most recent call first):
+[1.465s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.465s] 
+[1.465s] 
+[1.465s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.465s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.466s]   property "IMPORTED_LOCATION" is not allowed.
+[1.466s] Call Stack (most recent call first):
+[1.466s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.466s] 
+[1.466s] 
+[1.466s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.466s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.466s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.466s]   allowed.
+[1.466s] Call Stack (most recent call first):
+[1.467s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.467s] 
+[1.467s] 
+[1.467s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:83 (get_target_property):
+[1.467s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.467s]   property "IMPORTED_LOCATION" is not allowed.
+[1.467s] Call Stack (most recent call first):
+[1.467s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.467s] 
+[1.467s] 
+[1.468s] CMake Error at /opt/ros/foxy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:90 (get_target_property):
+[1.468s]   INTERFACE_LIBRARY targets may only have whitelisted properties.  The
+[1.468s]   property "IMPORTED_LOCATION__imported_configurations-NOTFOUND" is not
+[1.468s]   allowed.
+[1.468s] Call Stack (most recent call first):
+[1.468s]   CMakeLists.txt:57 (ament_export_libraries)
+[1.468s] 
+[1.468s] 
+[1.613s] -- Configuring incomplete, errors occurred!
+[1.613s] See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeOutput.log".
+[1.614s] See also "/home/wasp_mini/ros2_ws/build/main_waspmini/CMakeFiles/CMakeError.log".
+[1.624s] Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wasp_mini/ros2_ws/install/wasp_mini_controller:/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/main_waspmini -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/main_waspmini

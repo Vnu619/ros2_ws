@@ -1,0 +1,6 @@
+[console_scripts]
+actuator_position = wasp_mini_controller.actuator_fb:main
+main_node = wasp_mini_controller.main:main
+motor_FL = wasp_mini_controller.motor_FL:main
+motor_FR = wasp_mini_controller.motor_FR:main
+

@@ -1,0 +1,45 @@
+[0.048s] Invoking command in '/home/wasp_mini/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/robot_localization
+[0.101s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.102s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.691s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.793s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.007s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.094s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.096s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.498s] -- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[1.602s] -- Found diagnostic_updater: 2.0.7 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.652s] -- Found geographic_msgs: 1.0.4 (/opt/ros/foxy/share/geographic_msgs/cmake)
+[2.072s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.234s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.266s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.452s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.480s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[2.511s] -- Found tf2_eigen: 0.13.10 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.121s] -- Found tf2_geometry_msgs: 0.13.10 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.137s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.200s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[3.206s] -- Found yaml_cpp_vendor: 7.0.2 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[3.207s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.226s] CMake Error at CMakeLists.txt:37 (find_package):
+[3.227s]   By not providing "FindGeographicLib.cmake" in CMAKE_MODULE_PATH this
+[3.227s]   project has asked CMake to find a package configuration file provided by
+[3.227s]   "GeographicLib", but CMake did not find one.
+[3.227s] 
+[3.227s]   Could not find a package configuration file provided by "GeographicLib"
+[3.227s]   with any of the following names:
+[3.228s] 
+[3.228s]     GeographicLibConfig.cmake
+[3.228s]     geographiclib-config.cmake
+[3.228s] 
+[3.228s]   Add the installation prefix of "GeographicLib" to CMAKE_PREFIX_PATH or set
+[3.228s]   "GeographicLib_DIR" to a directory containing one of the above files.  If
+[3.228s]   "GeographicLib" provides a separate development package or SDK, be sure it
+[3.229s]   has been installed.
+[3.229s] 
+[3.229s] 
+[3.230s] -- Configuring incomplete, errors occurred!
+[3.230s] See also "/home/wasp_mini/ros2_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[3.231s] See also "/home/wasp_mini/ros2_ws/build/robot_localization/CMakeFiles/CMakeError.log".
+[3.241s] Invoked command in '/home/wasp_mini/ros2_ws/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/robot_localization

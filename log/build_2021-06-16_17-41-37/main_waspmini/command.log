@@ -1,0 +1,2 @@
+Invoking command in '/home/wasp_mini/ros2_ws/build/main_waspmini': /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/main_waspmini -- -j4 -l4
+Invoked command in '/home/wasp_mini/ros2_ws/build/main_waspmini' returned '2': /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/main_waspmini -- -j4 -l4

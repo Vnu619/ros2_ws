@@ -1,0 +1,483 @@
+[0.057s] Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/vectornav/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/vectornav_msgs
+[0.634s] -- The C compiler identification is GNU 9.3.0
+[0.635s] -- The CXX compiler identification is GNU 9.3.0
+[0.637s] -- Check for working C compiler: /usr/bin/cc
+[0.809s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.849s] -- Detecting C compiler ABI info
+[0.988s] -- Detecting C compiler ABI info - done
+[1.043s] -- Detecting C compile features
+[1.043s] -- Detecting C compile features - done
+[1.054s] -- Check for working CXX compiler: /usr/bin/c++
+[1.291s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.293s] -- Detecting CXX compiler ABI info
+[1.459s] -- Detecting CXX compiler ABI info - done
+[1.490s] -- Detecting CXX compile features
+[1.491s] -- Detecting CXX compile features - done
+[1.497s] -- Found ament_cmake_auto: 0.9.8 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.548s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.548s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.145s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.342s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.409s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.909s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[3.282s] -- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[3.286s] -- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[3.291s] -- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[3.296s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.769s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.064s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[4.067s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.117s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[4.117s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.117s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.117s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.152s] -- Found PythonExtra: .so  
+[4.318s] -- Found ament_cmake_flake8: 0.9.6 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[4.322s] -- Found ament_cmake_pep257: 0.9.6 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[4.350s] -- Configuring done
+[4.491s] -- Generating done
+[4.497s] -- Build files have been written to: /home/wasp_mini/ros2_ws/build/vectornav_msgs
+[4.513s] Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wasp_mini/ros2_ws/src/vectornav/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/wasp_mini/ros2_ws/install/vectornav_msgs
+[4.516s] Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav_msgs -- -j4 -l4
+[4.590s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.591s] [35m[1mScanning dependencies of target vectornav_msgs__cpp[0m
+[4.613s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.558s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_generator_c[0m
+[7.602s] [  1%] Built target vectornav_msgs__cpp
+[7.614s] [  2%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_group__functions.c.o[0m
+[7.615s] [  3%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/common_group__functions.c.o[0m
+[7.615s] [  4%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/imu_group__functions.c.o[0m
+[7.625s] [  5%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/gps_group__functions.c.o[0m
+[7.756s] [  6%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/attitude_group__functions.c.o[0m
+[7.757s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.757s] [  7%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_group__functions.c.o[0m
+[7.774s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.855s] [  8%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_utc__functions.c.o[0m
+[7.871s] [  9%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/dop__functions.c.o[0m
+[7.982s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.983s] [ 11%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/vpe_status__functions.c.o[0m
+[8.105s] [ 12%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_status__functions.c.o[0m
+[8.250s] [ 13%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_status__functions.c.o[0m
+[8.384s] [ 14%] [32m[1mLinking C shared library libvectornav_msgs__rosidl_generator_c.so[0m
+[8.651s] [ 14%] Built target vectornav_msgs__rosidl_generator_c
+[8.678s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.245s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_cpp[0m
+[12.290s] [ 16%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/common_group__type_support.cpp.o[0m
+[12.645s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[12.700s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_introspection_cpp[0m
+[12.744s] [ 17%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/common_group__type_support.cpp.o[0m
+[12.764s] [ 18%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/common_group__type_support.cpp.o[0m
+[13.144s] [ 19%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_group__type_support.cpp.o[0m
+[13.651s] [ 19%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_group__type_support.cpp.o[0m
+[13.862s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_introspection_c[0m
+[13.957s] [ 20%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/common_group__type_support.c.o[0m
+[13.965s] [ 21%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/imu_group__type_support.cpp.o[0m
+[14.063s] [ 22%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_group__type_support.c.o[0m
+[14.159s] [ 23%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/imu_group__type_support.c.o[0m
+[14.243s] [ 24%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_group__type_support.cpp.o[0m
+[14.257s] [ 25%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/gps_group__type_support.c.o[0m
+[14.355s] [ 26%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/attitude_group__type_support.c.o[0m
+[14.452s] [ 27%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_group__type_support.c.o[0m
+[14.458s] [ 28%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/imu_group__type_support.cpp.o[0m
+[14.551s] [ 28%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_utc__type_support.c.o[0m
+[14.649s] [ 29%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/dop__type_support.c.o[0m
+[14.747s] [ 30%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/vpe_status__type_support.c.o[0m
+[14.839s] [ 31%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_status__type_support.c.o[0m
+[14.846s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/gps_group__type_support.cpp.o[0m
+[14.937s] [ 33%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_status__type_support.c.o[0m
+[15.036s] [ 34%] [32m[1mLinking C shared library libvectornav_msgs__rosidl_typesupport_introspection_c.so[0m
+[15.133s] [ 34%] Built target vectornav_msgs__rosidl_typesupport_introspection_c
+[15.156s] [ 35%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/gps_group__type_support.cpp.o[0m
+[15.267s] [ 36%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/attitude_group__type_support.cpp.o[0m
+[15.626s] [ 37%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/imu_group__type_support.cpp.o[0m
+[15.690s] [ 38%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_group__type_support.cpp.o[0m
+[16.043s] [ 39%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/attitude_group__type_support.cpp.o[0m
+[16.095s] [ 40%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_utc__type_support.cpp.o[0m
+[16.488s] [ 41%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_group__type_support.cpp.o[0m
+[16.899s] [ 41%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/dop__type_support.cpp.o[0m
+[16.948s] [ 42%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/vpe_status__type_support.cpp.o[0m
+[16.973s] [ 43%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/gps_group__type_support.cpp.o[0m
+[17.329s] [ 44%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_utc__type_support.cpp.o[0m
+[17.742s] [ 45%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/attitude_group__type_support.cpp.o[0m
+[17.810s] [ 46%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_status__type_support.cpp.o[0m
+[18.089s] [ 47%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/dop__type_support.cpp.o[0m
+[18.379s] [ 48%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_status__type_support.cpp.o[0m
+[18.670s] [ 49%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_group__type_support.cpp.o[0m
+[18.892s] [ 50%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/vpe_status__type_support.cpp.o[0m
+[18.993s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.229s] [ 52%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_cpp.so[0m
+[19.344s] [ 52%] Built target vectornav_msgs__rosidl_typesupport_cpp
+[19.368s] [ 53%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_utc__type_support.cpp.o[0m
+[19.693s] [ 54%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_status__type_support.cpp.o[0m
+[19.935s] [ 55%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/dop__type_support.cpp.o[0m
+[20.528s] [ 56%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_status__type_support.cpp.o[0m
+[20.529s] [ 57%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/vpe_status__type_support.cpp.o[0m
+[21.083s] [ 57%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_status__type_support.cpp.o[0m
+[21.305s] [ 58%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[21.518s] [ 58%] Built target vectornav_msgs__rosidl_typesupport_introspection_cpp
+[21.554s] [ 59%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_status__type_support.cpp.o[0m
+[22.495s] [ 60%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.669s] [ 60%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_cpp
+[22.693s] [ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.768s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_c[0m
+[22.799s] [ 62%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/common_group__type_support.cpp.o[0m
+[22.800s] [ 63%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_group__type_support.cpp.o[0m
+[22.816s] [ 63%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/imu_group__type_support.cpp.o[0m
+[22.894s] [ 64%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/gps_group__type_support.cpp.o[0m
+[22.896s] [ 65%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/attitude_group__type_support.cpp.o[0m
+[22.897s] [ 66%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_group__type_support.cpp.o[0m
+[22.990s] [ 67%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_utc__type_support.cpp.o[0m
+[22.990s] [ 68%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/dop__type_support.cpp.o[0m
+[22.992s] [ 69%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/vpe_status__type_support.cpp.o[0m
+[23.085s] [ 70%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_status__type_support.cpp.o[0m
+[23.088s] [ 71%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_status__type_support.cpp.o[0m
+[23.152s] [ 72%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_c.so[0m
+[23.232s] [ 72%] Built target vectornav_msgs__rosidl_typesupport_c
+[25.263s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_fastrtps_c[0m
+[25.345s] [ 75%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/gps_group__type_support_c.cpp.o[0m
+[25.346s] [ 75%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_group__type_support_c.cpp.o[0m
+[25.346s] [ 76%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/common_group__type_support_c.cpp.o[0m
+[25.347s] [ 75%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/imu_group__type_support_c.cpp.o[0m
+[26.330s] [ 77%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/attitude_group__type_support_c.cpp.o[0m
+[26.331s] [ 77%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_group__type_support_c.cpp.o[0m
+[26.467s] [ 78%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_utc__type_support_c.cpp.o[0m
+[26.581s] [ 79%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/dop__type_support_c.cpp.o[0m
+[27.343s] [ 80%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/vpe_status__type_support_c.cpp.o[0m
+[27.363s] [ 81%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_status__type_support_c.cpp.o[0m
+[27.446s] [ 82%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_status__type_support_c.cpp.o[0m
+[28.362s] [ 83%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[28.530s] [ 83%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c
+[28.546s] [35m[1mScanning dependencies of target vectornav_msgs[0m
+[28.564s] [ 83%] Built target vectornav_msgs
+[28.582s] [35m[1mScanning dependencies of target vectornav_msgs__py[0m
+[28.601s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.603s] [ 84%] Built target vectornav_msgs__py
+[33.623s] [35m[1mScanning dependencies of target vectornav_msgs__python[0m
+[33.742s] [ 85%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_common_group_s.c.o[0m
+[33.743s] [ 86%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_gps_group_s.c.o[0m
+[33.743s] [ 87%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_imu_group_s.c.o[0m
+[33.744s] [ 88%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_time_group_s.c.o[0m
+[34.035s] [ 89%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_attitude_group_s.c.o[0m
+[34.037s] [ 90%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_group_s.c.o[0m
+[34.049s] [ 91%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_time_utc_s.c.o[0m
+[34.054s] [ 92%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_dop_s.c.o[0m
+[34.309s] [ 92%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_vpe_status_s.c.o[0m
+[34.313s] [ 93%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_time_status_s.c.o[0m
+[34.323s] [ 94%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_status_s.c.o[0m
+[34.575s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/libvectornav_msgs__python.so[0m
+[34.656s] [ 95%] Built target vectornav_msgs__python
+[34.674s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[34.679s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_c__pyext[0m
+[34.683s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[34.713s] [ 96%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[34.734s] [ 96%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[34.746s] [ 97%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.951s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[35.011s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[35.025s] [ 99%] Built target vectornav_msgs__rosidl_typesupport_c__pyext
+[35.043s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[35.086s] [100%] Built target vectornav_msgs__rosidl_typesupport_introspection_c__pyext
+[35.164s] [100%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35.187s] Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wasp_mini/ros2_ws/build/vectornav_msgs -- -j4 -l4
+[35.471s] Invoking command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav_msgs
+[35.485s] -- Install configuration: ""
+[35.486s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/ament_index/resource_index/rosidl_interfaces/vectornav_msgs
+[35.486s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs
+[35.486s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg
+[35.487s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_status.h
+[35.487s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_group.h
+[35.487s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/dop.h
+[35.487s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_generator_c__visibility_control.h
+[35.487s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_utc.h
+[35.488s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/gps_group.h
+[35.488s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/common_group.h
+[35.488s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail
+[35.488s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__type_support.h
+[35.488s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__type_support.h
+[35.489s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__functions.h
+[35.489s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__functions.h
+[35.489s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__struct.h
+[35.489s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__struct.h
+[35.489s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__type_support.h
+[35.490s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__functions.c
+[35.490s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__type_support.h
+[35.490s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__struct.h
+[35.490s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__struct.h
+[35.490s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__functions.c
+[35.491s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__functions.c
+[35.491s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__functions.c
+[35.491s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__struct.h
+[35.492s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__functions.h
+[35.492s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__functions.h
+[35.492s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__type_support.h
+[35.492s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__type_support.h
+[35.493s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__type_support.h
+[35.493s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__functions.c
+[35.493s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__type_support.h
+[35.494s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__functions.c
+[35.494s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__functions.h
+[35.494s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__struct.h
+[35.494s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__functions.c
+[35.495s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__functions.h
+[35.495s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__functions.c
+[35.495s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__struct.h
+[35.495s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__functions.c
+[35.496s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__struct.h
+[35.496s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__functions.h
+[35.496s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__struct.h
+[35.497s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__functions.h
+[35.497s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__functions.h
+[35.497s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__type_support.h
+[35.497s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__struct.h
+[35.498s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__struct.h
+[35.498s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__functions.h
+[35.498s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__functions.h
+[35.498s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__type_support.h
+[35.499s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__functions.c
+[35.499s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__functions.c
+[35.499s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__type_support.h
+[35.499s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/vpe_status.h
+[35.500s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/attitude_group.h
+[35.500s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_group.h
+[35.500s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_status.h
+[35.500s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/imu_group.h
+[35.501s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.sh
+[35.501s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.dsv
+[35.501s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so
+[35.501s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so" to ""
+[35.502s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs
+[35.502s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg
+[35.502s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.502s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail
+[35.502s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_c.h
+[35.503s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_c.h
+[35.503s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_c.h
+[35.503s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_c.h
+[35.504s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_c.h
+[35.504s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_c.h
+[35.504s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_c.h
+[35.504s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_c.h
+[35.505s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_c.h
+[35.505s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_c.h
+[35.505s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_c.h
+[35.505s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so
+[35.506s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[35.506s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs
+[35.506s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg
+[35.507s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.507s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail
+[35.507s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_cpp.hpp
+[35.507s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_cpp.hpp
+[35.508s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_cpp.hpp
+[35.508s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_cpp.hpp
+[35.508s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_cpp.hpp
+[35.508s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_cpp.hpp
+[35.509s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_cpp.hpp
+[35.509s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dds_fastrtps
+[35.509s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_cpp.hpp
+[35.509s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_cpp.hpp
+[35.510s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_cpp.hpp
+[35.510s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_cpp.hpp
+[35.510s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[35.510s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.511s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs
+[35.511s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg
+[35.511s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.511s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail
+[35.512s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_c.h
+[35.512s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__type_support.c
+[35.512s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__type_support.c
+[35.512s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__type_support.c
+[35.513s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__type_support.c
+[35.513s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_c.h
+[35.513s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__type_support.c
+[35.513s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_c.h
+[35.513s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_c.h
+[35.514s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_c.h
+[35.514s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_c.h
+[35.514s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__type_support.c
+[35.514s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_c.h
+[35.514s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_c.h
+[35.515s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__type_support.c
+[35.515s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__type_support.c
+[35.515s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__type_support.c
+[35.515s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_c.h
+[35.516s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_c.h
+[35.516s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__type_support.c
+[35.516s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__type_support.c
+[35.516s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_c.h
+[35.517s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so
+[35.517s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[35.517s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so
+[35.518s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so" to ""
+[35.518s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs
+[35.518s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg
+[35.518s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/dop.hpp
+[35.520s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_group.hpp
+[35.521s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/imu_group.hpp
+[35.521s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_group.hpp
+[35.522s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/gps_group.hpp
+[35.522s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail
+[35.522s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__traits.hpp
+[35.522s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__struct.hpp
+[35.523s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__builder.hpp
+[35.523s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__builder.hpp
+[35.523s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__traits.hpp
+[35.523s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__builder.hpp
+[35.524s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__builder.hpp
+[35.524s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__builder.hpp
+[35.524s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__traits.hpp
+[35.524s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__builder.hpp
+[35.525s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__struct.hpp
+[35.525s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__struct.hpp
+[35.525s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__struct.hpp
+[35.525s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__builder.hpp
+[35.526s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__struct.hpp
+[35.526s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__struct.hpp
+[35.526s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__traits.hpp
+[35.526s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__builder.hpp
+[35.527s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__struct.hpp
+[35.527s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__traits.hpp
+[35.527s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__traits.hpp
+[35.527s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__struct.hpp
+[35.528s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__traits.hpp
+[35.528s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__traits.hpp
+[35.528s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__traits.hpp
+[35.528s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__traits.hpp
+[35.529s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__struct.hpp
+[35.529s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__builder.hpp
+[35.529s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__traits.hpp
+[35.530s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__builder.hpp
+[35.530s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__struct.hpp
+[35.530s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__builder.hpp
+[35.530s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__struct.hpp
+[35.530s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_status.hpp
+[35.531s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/common_group.hpp
+[35.531s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_utc.hpp
+[35.531s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_status.hpp
+[35.531s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/vpe_status.hpp
+[35.532s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/attitude_group.hpp
+[35.532s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs
+[35.532s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg
+[35.532s] -- Up-to-date: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail
+[35.533s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__type_support.cpp
+[35.533s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_cpp.hpp
+[35.533s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_cpp.hpp
+[35.533s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_cpp.hpp
+[35.533s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_cpp.hpp
+[35.534s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_cpp.hpp
+[35.534s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__type_support.cpp
+[35.534s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__type_support.cpp
+[35.534s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_cpp.hpp
+[35.534s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__type_support.cpp
+[35.535s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__type_support.cpp
+[35.535s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__type_support.cpp
+[35.535s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__type_support.cpp
+[35.535s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__type_support.cpp
+[35.536s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__type_support.cpp
+[35.536s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__type_support.cpp
+[35.536s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__type_support.cpp
+[35.536s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_cpp.hpp
+[35.536s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_cpp.hpp
+[35.537s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_cpp.hpp
+[35.537s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_cpp.hpp
+[35.537s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_cpp.hpp
+[35.537s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so
+[35.537s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[35.537s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so
+[35.537s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so" to ""
+[35.537s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.sh
+[35.538s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.dsv
+[35.538s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/__init__.py
+[35.584s] Compiling '/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/__init__.py'...
+[35.590s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg
+[35.591s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status.py
+[35.591s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group.py
+[35.591s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status_s.c
+[35.592s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc.py
+[35.592s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group.py
+[35.592s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group_s.c
+[35.592s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group_s.c
+[35.592s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status.py
+[35.592s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group_s.c
+[35.593s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop.py
+[35.593s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop_s.c
+[35.593s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group_s.c
+[35.593s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status_s.c
+[35.593s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group_s.c
+[35.593s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group.py
+[35.594s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/__init__.py
+[35.594s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group.py
+[35.594s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group.py
+[35.594s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group_s.c
+[35.594s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc_s.c
+[35.594s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group.py
+[35.594s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status.py
+[35.595s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status_s.c
+[35.595s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[35.596s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[35.596s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[35.597s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[35.597s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[35.598s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[35.598s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__python.so
+[35.599s] -- Set runtime path of "/home/wasp_mini/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__python.so" to ""
+[35.599s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.idl
+[35.600s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.idl
+[35.600s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.idl
+[35.600s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.idl
+[35.601s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.idl
+[35.601s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.idl
+[35.601s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.idl
+[35.601s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.idl
+[35.602s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.idl
+[35.602s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.idl
+[35.602s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.idl
+[35.602s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.msg
+[35.603s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.msg
+[35.603s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.msg
+[35.603s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.msg
+[35.603s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.msg
+[35.603s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.msg
+[35.604s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.msg
+[35.604s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.msg
+[35.604s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.msg
+[35.604s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.msg
+[35.604s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.msg
+[35.605s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/ament_index/resource_index/package_run_dependencies/vectornav_msgs
+[35.605s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/ament_index/resource_index/parent_prefix_path/vectornav_msgs
+[35.605s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.sh
+[35.606s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.dsv
+[35.606s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.sh
+[35.606s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.dsv
+[35.607s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.bash
+[35.607s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.sh
+[35.607s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.zsh
+[35.608s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.dsv
+[35.608s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.dsv
+[35.608s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/ament_index/resource_index/packages/vectornav_msgs
+[35.609s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cExport.cmake
+[35.609s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cExport-noconfig.cmake
+[35.609s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[35.610s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.610s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport.cmake
+[35.611s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[35.611s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cppExport.cmake
+[35.611s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[35.612s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.612s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport.cmake
+[35.612s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[35.613s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake-extras.cmake
+[35.613s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.613s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[35.614s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[35.614s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.614s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.615s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.615s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig.cmake
+[35.615s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig-version.cmake
+[35.616s] -- Installing: /home/wasp_mini/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.xml
+[35.623s] Invoked command in '/home/wasp_mini/ros2_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wasp_mini/ros2_ws/build/vectornav_msgs
